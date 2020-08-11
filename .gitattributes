@@ -1,0 +1,9 @@
+*.jpg !text !filter !merge !diff
+*.png !text !filter !merge !diff
+*.pdf !text !filter !merge !diff
+*.jpeg !text !filter !merge !diff
+*.bmp !text !filter !merge !diff
+*.xml !text !filter !merge !diff
+*.zip !text !filter !merge !diff
+*.tar.gz !text !filter !merge !diff
+*.tgz !text !filter !merge !diff
