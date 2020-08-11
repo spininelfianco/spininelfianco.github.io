@@ -1,5 +1,6 @@
 html {
 	font-size: 2.5em;
+	width: 1280px;
 }
 body {
 	background-color: #fff;
@@ -72,59 +73,12 @@ body {
 .twitter span {
 	background-color: #4099ff;
 }
-.facebook span {
-	background-color: #3B5998;
-}
-.google-plus span {
-	background-color: #db5a3c;
-}
-.tumblr span {
-	background-color: #34526f;
-}
-.instagram span {
-	background-color: #517fa4;
-}
-.youtube span {
-	background-color: #bb0000;
-}
-.pinterest span {
-	background-color: #cb2027;
-}
-
-
 
 .icon-button .icon-twitter {
 	color: #4099ff;
 }
-.icon-button .icon-facebook {
-	color: #3B5998;
-}
-.icon-button .fa-tumblr {
-	color: #34526f;
-}
-.icon-button .icon-google-plus {
-	color: #db5a3c;
-}
-.icon-button .fa-instagram {
-	color: #517fa4;
-}
-.icon-button .fa-youtube {
-	color: #bb0000;
-}
-.icon-button .fa-pinterest {
-	color: #cb2027;
-}
 
-
-
-
-.icon-button:hover .icon-twitter,
-.icon-button:hover .icon-facebook,
-.icon-button:hover .icon-google-plus,
-.icon-button:hover .fa-tumblr,
-.icon-button:hover .fa-instagram,
-.icon-button:hover .fa-youtube,
-.icon-button:hover .fa-pinterest {
+.icon-button:hover .icon-twitter {
 	color: white;
 }
 
