@@ -154,11 +154,6 @@ $(function() {
     return setTimeout(render, 20);
   };
 
-  $('#newQuoteBtn').on('click', function() {
-
-    output();
-
-  });
-
+  $('#newQuoteBtn').on('click', output);
 
 });
