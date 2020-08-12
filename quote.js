@@ -1,11 +1,11 @@
 $(function() {
 
   var quotes = [{
-    quote: 'Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere la #mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: '📢 Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere la #mafia! pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'Un solo punto programmatico legalizzare per ripartire. 🥦 #LegalizeIt #MeglioLegale #Cannabis',
+    quote: '📢 Un solo punto programmatico legalizzare per ripartire. 🥦 #LegalizeIt #MeglioLegale #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -17,7 +17,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'Con il proibizionismo un azienda in particolare ha aumentato il suo fatturato la #mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: '📢 Con il proibizionismo un azienda in particolare ha aumentato il suo fatturato la #mafia! pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -29,7 +29,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #LegalizeIt #Cannabis',
+    quote: '📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #LegalizeIt #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -42,7 +42,7 @@ $(function() {
     link: '#'
   }, {
     quote: '“You smoke a joint, you put on some music, you listen to it and you come up with some good ideas…I don’t need pot to write, but it’s kind of cool.” by Quentin Tarantino #cannabis #LegalizeIt',
-    author: '~#spininelfianco',
+    author: '#spininelfianco',
     link: 'https://pbs.twimg.com/media/EeipP2IU0AATezX?format=jpg'
   }, {
     quote: 'Le droghe sono tutte uguali. Ecco perché mio figlio, fra #cannabis e cocaina, ha scelto la seconda. Gli piaceva di più come era incartata. L’unica differenza era la confezione. Dice.',
@@ -65,7 +65,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'Legalizzare la #cannabis, oggi è soltanto una scelta di buon senso. #LegalizeIt #Cannabis @GiuseppeConteIT @pdnetwork @Mov5Stelle',
+    quote: '📢 Legalizzare la #cannabis, oggi è soltanto una scelta di buon senso. #LegalizeIt #Cannabis @GiuseppeConteIT @pdnetwork @Mov5Stelle',
     author: '#spininelfianco',
     link: '#'
   }, {
