@@ -69,7 +69,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '“Per le ragazze è un efficace aiuto per i dolori mestruali, per le donne della mia età è un antidolorifico unico e naturale” #Cannabis #LegalizeIt by @WhoopiGoldberg ',
+    quote: '“Per le ragazze è un efficace aiuto per i dolori mestruali, per le donne della mia età è un antidolorifico unico e naturale” by @WhoopiGoldberg #Cannabis #LegalizeIt',
     author: '#spininelfianco',
     link: '#'
   }, {
