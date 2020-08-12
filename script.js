@@ -116,9 +116,9 @@ $(function() {
       var num = result[x];
 
       if (quotes[num].link == '#') {
-        htmlOutput = '<p>' + quotes[num].quote + '</p>' + '<footer><a href="#" class="brackets author">' + quotes[num].author + '</a><span class="cursor blink">&#9646;</span></footer>';
+        htmlOutput = '<p>' + decodeURIComponent(quotes[num].quote) + '</p>' + '<footer><a href="#" class="brackets author">' + quotes[num].author + '</a><span class="cursor blink">&#9646;</span></footer>';
       } else {
-        htmlOutput = '<p>' + quotes[num].quote + '</p>' + '<footer><a href="' + quotes[num].link + '" target="_blank" class="brackets author">' + quotes[num].author + '</a><span class="cursor blink">&#9646;</span></footer>';
+        htmlOutput = '<p>' + decodeURIComponent(quotes[num].quote) + '</p>' + '<footer><a href="' + quotes[num].link + '" target="_blank" class="brackets author">' + quotes[num].author + '</a><span class="cursor blink">&#9646;</span></footer>';
       }
       $('#' + num).addClass('opened');
       $tweet.html('<a href="https://twitter.com/intent/tweet?text=' + quotes[num].quote + '-' + quotes[num].author + '" class="btn" target="_blank">Tweet Quote</a>');
