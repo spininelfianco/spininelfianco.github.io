@@ -33,11 +33,11 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'L&rsquo;illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l&rsquo;intuizione, la sensibilità e l&rsquo;amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan ~#spininelfianco',
+    quote: 'L&rsquo;illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l&rsquo;intuizione, la sensibilità e l&rsquo;amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '#Legalizzare significa, tutelare i consumatori e i produttori, oltre che l’#ambiente. Un arma per combattere la #deforestazione, l’#inquinamento, ridurre gli effetti devastanti dell’uomo sul #clima e, per creare un modello sostenibile di sviluppo economico. ~#spininelfianco',
+    quote: '#Legalizzare significa, tutelare i consumatori e i produttori, oltre che l’#ambiente. Un arma per combattere la #deforestazione, l’#inquinamento, ridurre gli effetti devastanti dell’uomo sul #clima e, per creare un modello sostenibile di sviluppo economico.',
     author: '#spininelfianco',
     link: '#'
   }, {
