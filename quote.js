@@ -1,15 +1,15 @@
 $(function() {
 
   var quotes = [{
-    quote: 'Il proibizionismo in %23Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere la %23mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: 'Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere la #mafia! pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'Un solo punto programmatico legalizzare per ripartire. 🥦 %23LegalizeIt %23MeglioLegale %23Cannabis',
+    quote: 'Un solo punto programmatico legalizzare per ripartire. 🥦 #LegalizeIt #MeglioLegale #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '“Sarà la cannabis a salvare Taranto dal disastro ambientale dell’Ilva %23curioso” by @alanfriedmanit',
+    quote: '“Sarà la cannabis a salvare Taranto dal disastro ambientale dell’Ilva #curioso” by @alanfriedmanit',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -17,15 +17,15 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'Con il proibizionismo un azienda in particolare ha aumentato il suo fatturato la %23mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: 'Con il proibizionismo un azienda in particolare ha aumentato il suo fatturato la #mafia! pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Salvini “Chiuderò uno a uno tutti i negozi di %23cannabis legale”. Da venditore di fumo, non tollera la concorrenza',
+    quote: '📢 Salvini “Chiuderò uno a uno tutti i negozi di #cannabis legale”. Da venditore di fumo, non tollera la concorrenza',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '%23Cannabis: è il materiale del futuro, perfetta per ri-fertilizzare i terreni, fantastica materia prima per realizzare bioplastiche, mattoni, abiti resistenti e sostenibili. Nonostante tutto la politica si rifiuta di vederla come una reale risorsa pic.twitter.com/eAonMtBkPE',
+    quote: '#Cannabis: è il materiale del futuro, perfetta per ri-fertilizzare i terreni, fantastica materia prima per realizzare bioplastiche, mattoni, abiti resistenti e sostenibili. Nonostante tutto la politica si rifiuta di vederla come una reale risorsa pic.twitter.com/eAonMtBkPE',
     author: '#spininelfianco',
     link: '#'
   }, {
