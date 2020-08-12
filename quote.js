@@ -33,7 +33,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'L&rsquo;illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l&rsquo;intuizione, la sensibilità e l&rsquo;amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
+    quote: '&quot;L&rsquo;illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l&rsquo;intuizione, la sensibilità e l&rsquo;amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
     author: '#spininelfianco',
     link: '#'
   }, {
