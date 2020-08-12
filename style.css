@@ -1,6 +1,5 @@
 html {
 	font-size: 2.5em;
-	/*width: 1280px;*/
 }
 body {
 	background-color: #fff;
@@ -9,9 +8,17 @@ body {
 }
 
 #header img {
-    min-height: 550px;
-    max-height: 95vh;
-    max-width: 95vw;
+    max-height: 93vh;
+    max-width: 93vw;
+}
+@media all and (min-width: 550px) {
+    #header img {
+        min-height: 550px;
+    }
+}
+
+#countbox {
+    width: 100%;
 }
 
 /* Wrapper */
