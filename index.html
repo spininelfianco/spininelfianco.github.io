@@ -69,14 +69,37 @@
     <div id="countbox"></div>
   </div>
 
-  <!-- partial:index.partial.html -->
-  <div class="tweets">
+  <main id="content" class="tweets">
+    <div id="tweet_list" style="text-align: center">
+      <!-- Generated buttons will be loaded in this container -->
+    </div>
+  </main>
+
+  <div id="footer">
+    <a href="https://twitter.com/intent/tweet?button_hashtag=spininelfianco&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #spininelfianco</a>
+  </div>
+
+
+
+
+
+  <!----------------------------------- CONFIG CODE ------------------------------------->
+
+  <div id="tweets_config" style="display: none">
+
+    <!-- TEMPLATE used to generate buttons. Single place to change the markup to display. -->
+    <template id="tweet_template">
+      <a href="PUT Twitter TWITTING URL HERE" target="_blank" class="icon-button twitter">
+        <i class="icon-twitter"></i><span></span>
+      </a>
+    </template>
+
 
     <!-- LIST OF TWEETS to create buttons for.
          One tweet per line. Write in natural language (no escaping/encoding).
          Empty spaces are removed automatically.
     -->
-    <div id="tweet_data" style="display: none">
+    <div id="tweets_data">
       @GiuseppeConteIT #Cannabis: è il materiale del futuro, perfetta per i terreni, fantastica materia prima per realizzare bioplastiche, mattoni, abiti resistenti e sostenibili. Nonostante tutto la politica si rifiuta di vederla come una reale risorsa pic.twitter.com/eAonMtBkPE
       @GiuseppeConteIT A tutti gli antipro che leggono, vogliamo che si parli di #Cannabis?! Che si discuta la legalizzazione in #Italia? Twittate usando i tag di questo tweet: #legalizeIT #Cannabis #spininelfianco
       @GiuseppeConteIT La canapa è storia e tradizione e sarebbe capace di alimentare un'industria rispettosa dell'ambiente. #LegalizeiT #legalizzareperripartire #Cannabis #MeglioLegale pic.twitter.com/s71IRvVJXO
@@ -165,24 +188,9 @@
       #Madonna è l'altro nome di Maria, Maria è l'altro nome della #cannabis che è #megliolegale #LegalizeIt #spininelfianco
     </div>
 
-    <div id="tweet_list" style="text-align: center">
-      <!-- Generated buttons will be loaded in this container -->
-    </div>
-
-    <a href="https://twitter.com/intent/tweet?button_hashtag=spininelfianco&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #spininelfianco</a>
   </div>
 
-
-
-
   <!----------------------------------- DYNAMIC CODE ------------------------------------->
-
-  <!-- template used to generate buttons. Single place to change the markup to display. -->
-  <template id="tweet_template" style="display: none">
-    <a href="PUT Twitter TWITTING URL HERE" target="_blank" class="icon-button twitter">
-      <i class="icon-twitter"></i><span></span>
-    </a>
-  </template>
 
   <script type="text/javascript">
     // NOTE: keep code AFTER the markup, when programming without using functions. Or use document.ready().
@@ -193,14 +201,14 @@
       // get HTML and DATA for tweets, that will be mixed to generate the list of links
       // (jquery works with the same selectors as CSS)
       var tweet_template = $('#tweet_template').html();
-      var tweet_data = $('#tweet_data').text()
+      var tweets_data = $('#tweets_data').text()
                                        .split(NEWLINE_SEPARATOR);
 
       // loop through the tweets, add the data to the html template,
       // and add the new element into the list
-      for (var i=0; i < tweet_data.length; i++) {
+      for (var i=0; i < tweets_data.length; i++) {
         // get tweet text
-        var tweet = tweet_data[i].trim();
+        var tweet = tweets_data[i].trim();
         var url = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(tweet);
 
         // skip empty lines
