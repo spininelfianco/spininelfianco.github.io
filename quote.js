@@ -84,7 +84,6 @@ $(function() {
     quote: '"La marijuana? La mangio, la bevo, la fumo. È l’unica terapia del dolore che funziona" by @morgan_freeman #Cannabis',
     author: '#spininelfianco',
     link: '#'
-	
   }];
 
   // vars
