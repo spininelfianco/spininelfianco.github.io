@@ -62,8 +62,6 @@
           setTimeout("GetCount()", 1000);
         }
       }
-
-      window.onload=function(){GetCount();}//call when everything has loaded
     </script>
 
     <div id="countbox"></div>
@@ -195,7 +193,7 @@
   <script type="text/javascript">
     // NOTE: keep code AFTER the markup, when programming without using functions. Or use document.ready().
 
-    window.onload = function() {
+    function loadTweetBombs() {
       var NEWLINE_SEPARATOR = '\n';
 
       // get HTML and DATA for tweets, that will be mixed to generate the list of links
@@ -222,6 +220,12 @@
           .appendTo('#tweet_list'); // add <a> to tweet-list
       }
     };
+
+    window.onload = function() {
+      //call when everything has loaded
+      loadTweetBombs();
+      GetCount();
+    }
   </script>
 
 </body>
