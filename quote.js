@@ -120,7 +120,7 @@ $(function() {
         htmlOutput = '<p>' + quotes[num].quote + '</p>' + '<footer><a href="' + quotes[num].link + '" target="_blank" class="brackets author">' + quotes[num].author + '</a><span class="cursor blink">&#9646;</span></footer>';
       }
       $('#' + num).addClass('opened');
-      $tweet.html('<a href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(quotes[num].quote) + '-' + quotes[num].author + '" class="btn" target="_blank">Tweet Quote</a>');
+      $tweet.html('<a href="https://twitter.com/intent/tweet?text=' + encodeURIComponent(quotes[num].quote) + '-' + encodeURIComponent(quotes[num].author) + '" class="btn" target="_blank">Tweet Quote</a>');
     } else {
       htmlOutput = '<div class="warning"><span>WARNING</span><p> No more new quotes <span class="cursor blink">&#9646;</span></p></div>';
     }
