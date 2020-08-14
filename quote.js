@@ -61,7 +61,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@msgelmini @meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio @AndreaOstellari @matteorenzi @matteosalvinimi @GiorgiaMeloni @vitocrimi @ale_dibattista @nzingaretti @Am_Parente CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la #cannabis',
+    quote: '@meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio @AndreaOstellari @matteorenzi @vitocrimi @ale_dibattista @nzingaretti @Am_Parente CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
