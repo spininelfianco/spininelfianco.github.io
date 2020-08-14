@@ -1,7 +1,7 @@
 $(function() {
 
   var quotes = [{
-    quote: '📢 Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere la #mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: '📢 Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -17,7 +17,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Con il proibizionismo un azienda in particolare ha aumentato il suo fatturato la #mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: '📢 Con il proibizionismo un azienda in particolare ha aumentato il suo fatturato: la #mafia! pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
