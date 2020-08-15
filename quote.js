@@ -33,7 +33,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '&quot;L&rsquo;illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l&rsquo;intuizione, la sensibilità e l&rsquo;amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
+    quote: 'L’illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l’intuizione, la sensibilità e l’amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -61,7 +61,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio @AndreaOstellari @matteorenzi @vitocrimi @ale_dibattista @nzingaretti @Am_Parente CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la #cannabis',
+    quote: '@meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio @AndreaOstellari @matteorenzi @vitocrimi @ale_dibattista @nzingaretti @Am_Parente 📢 CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -84,6 +84,58 @@ $(function() {
     quote: '"La marijuana? La mangio, la bevo, la fumo. È l’unica terapia del dolore che funziona" by @morgan_freeman #Cannabis',
     author: '#spininelfianco',
     link: '#'
+  }, {
+    quote: '@meb @crippa5stelle @graziano_delrio 📢 Discutiamo la proposta di legge #s1498 #manifestocollettivo #cannabis #legalizeIt',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Più posti di Lavoro, più certezze per i consumatori!! #manifestocollettivo #liberalizzazione #S1498 #FinoAllaLibertà',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 La nostra libertà è un diritto che dovete garantirci! #liberalizzazione  #FinoAllaLibertà  #cannabis #S1498',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Preferite l’illegalità per la vostra moralità? #s1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Seminiamo pace sotto la tempesta! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Vogliamo legalità chiediamo Giustizia! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 1 Pianta 1000 Vantaggi! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Facciamo RIFIORIRE l’Italia! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Il mercato illegale è malsano e ci fa male! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Liberi di coltivare per uso personale. #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Stop ai regali alle Narcomafie. #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    author: '#spininelfianco',
+    link: '#'    
   }];
 
   // vars
