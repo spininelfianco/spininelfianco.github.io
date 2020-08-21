@@ -99,7 +99,11 @@ $(document).ready(function() {
               }, {
                 'author': '#spininelfianco',
                 'quote': "Guarda, non ho nulla da nascondere, non sono un grande fumatore di marijuana o di sostanze simili! Ma l'erba è molto, ma molto meno pericolosa dell'alcool by Johnny Depp",
-                'img': 'https://4.bp.blogspot.com/-v0dUGeDK9lQ/UbspJQCiDDI/AAAAAAAACYI/E7T_ewT6tpA/w1200-h630-p-k-no-nu/Johnny+Depp+Black+and+White+Photos.jpg'				
+                'img': 'https://4.bp.blogspot.com/-v0dUGeDK9lQ/UbspJQCiDDI/AAAAAAAACYI/E7T_ewT6tpA/w1200-h630-p-k-no-nu/Johnny+Depp+Black+and+White+Photos.jpg'
+              }, {
+                'author': '#spininelfianco',
+                'quote': "Se si vuole davvero combattere la droga bisogna rilanciare il tema della legalizzazione della #cannabis e dichiarare guerra alle mafie che sono gli unici veri rivenditori di morte. Tutto il resto è Salvini by @orfini",
+                'img': 'https://www.interris.it/wp-content/uploads/2020/02/img800-orfini-renzi-si-dimesso-formalmente-132956-1280x720.jpg'                          
               }];
 
               var randomQuote = Math.floor((Math.random() * quotes.length));
