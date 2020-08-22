@@ -103,7 +103,11 @@ $(document).ready(function() {
               }, {
                 'author': '#spininelfianco',
                 'quote': "Se si vuole davvero combattere la droga bisogna rilanciare il tema della legalizzazione della #cannabis e dichiarare guerra alle mafie che sono gli unici veri rivenditori di morte. Tutto il resto è Salvini by @orfini",
-                'img': 'https://www.interris.it/wp-content/uploads/2020/02/img800-orfini-renzi-si-dimesso-formalmente-132956-1280x720.jpg'                          
+                'img': 'https://www.interris.it/wp-content/uploads/2020/02/img800-orfini-renzi-si-dimesso-formalmente-132956-1280x720.jpg'
+              }, {
+                'author': '#spininelfianco',
+                'quote': "Smettiamo di fare regali alle mafie legalizziamola ora! Anzi bisognava averlo fatto già ieri by @robertosaviano",
+                'img': 'https://www.carmineconte.it/content/2.galleries/1.portrait/Roberto%20Saviano.jpg'                          
               }];
 
               var randomQuote = Math.floor((Math.random() * quotes.length));
