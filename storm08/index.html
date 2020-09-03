@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>Twitter Storm</title>
+
+  <!-- Load Cascade Styling Sheets (CSS) -->
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+  <link rel="stylesheet" href='./style.css'>
+  <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css'>
+
+  <!-- Load Javascript (JS) -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js'></script>
+  <!-- <script src="./main.js"></script> -->
+
+  <!-- Other meta -->
+  <link rel="icon" href="icon.png">
+
+</head>
+<body>
+
+  <div style="text-align: center" id="header">
+    <img src="fly.png" alt="Legalizzazione Cannabis">
+  </div>
+
+  <main id="content" class="tweets">
+    <div id="tweet_list" style="text-align: center">
+      <!-- Generated buttons will be loaded in this container -->
+    </div>
+  </main>
+
+  <!----------------------------------- CONFIG CODE ------------------------------------->
+
+  <div id="tweets_config" style="display: none">
+
+    <!-- TEMPLATE used to generate buttons. Single place to change the markup to display. -->
+    <template id="tweet_button_template">
+      <a class="post_btn">
+        <i class="icon-twitter"></i><span></span>
+      </a>
+    </template>
+
+    <!-- LIST OF TWEETS to create buttons for.
+         One tweet per line. Write in natural language (no escaping/encoding).
+         Empty spaces are removed automatically.
+    -->
+    <div id="tweets_data">
+      📢 @GiuseppeConteIT #Cannabis: è il materiale del futuro, perfetta per i terreni, fantastica materia prima per realizzare bioplastiche, mattoni, abiti resistenti e sostenibili. Nonostante tutto la politica si rifiuta di vederla come una reale risorsa pic.twitter.com/eAonMtBkPE
+      @GiuseppeConteIT «Su Cannabis troveremo la quadra. L’emendamento in Manovra è stato frainteso» Quand'è che troveremo sta quadra su TUTTA la cannabis? https://www.open.online/2019/12/28/governo-giuseppe-conte-a-open-su-cannabis-troveremo-la-quadra-lemendamento-in-manovra-e-stato-frainteso/ #LegalizeIt #spininelfianco
+      @GiuseppeConteIT La canapa è storia e tradizione e sarebbe capace di alimentare un'industria rispettosa dell'ambiente. #LegalizeiT #legalizzareperripartire #Cannabis #MeglioLegale pic.twitter.com/s71IRvVJXO
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio La repressione proibizionista è stata utile? Sì, per le organizzazioni criminali! #LegalizeIt #Cannabis #LegalizzarePerRipartire pic.twitter.com/fjg1BOk1cT
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT Come risollevare l'economia in #Italia? #legalizeit 🇮🇹 #cannabis pic.twitter.com/w8rdHtZznK
+      @GiuseppeConteIT Anche l'OMS chiede di modificare il parere sullo status della #Cannabis. Si conoscono le qualità di questa pianta, ad opera dei pregiudizi è stato danneggiato anche il settore medico
+      📢 Vogliamo una legislazione #antipro e un orientamento di governo tollerante. Chiediamo che la #cannabis ed i suoi derivati siano legalizzati senza restrizioni né al consumo né alla coltivazione. #spininelfianco #LegalizeIt pic.twitter.com/9aEvpAqkiJ&oq
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT 📢 E' necessario #legalizzare la #cannabis e sostituire #plastica con #canapa #ambiente #LegalizeIt #spininelfianco pic.twitter.com/Buta99QReF&oq
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT 📢 L’uso medicinale, ricreativo e sacramentale di questa pianta è un diritto! #Cannabis #spininelfianco #megliolegale pic.twitter.com/mWPutd4pfK
+      📢 La questione della #cannabis nel nostro paese non può essere rimandata oltre, per il benessere della nostra cittadinanza, per il rispetto dei loro diritti, e non ultimo per un reale contrasto alla criminalità organizzata pic.twitter.com/Zb4zjh6o2j
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT 📢 La Direzione antimafia insiste: la #cannabis va legalizzata #LegalizeIt #spininelfianco
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT 🔴📢 3 punti: La #legalizzazione ricreativa, il futuro come risorsa agroindustriale e il mondo medico. #spininelfianco pic.twitter.com/tdYgBD8j0o
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT 📢 Con il proibizionismo in #Italia un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! pic.twitter.com/AGx1pxiSHL
+      🔴#LEGALIZZARE:Per rendere giustizia a tante persone che sono state vittime del proibizionismo e hanno scontato il loro amore per questa pianta a caro prezzo conoscendo il carcere e per chi dal carcere è tornato cadavere
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Ci chiediamo quando finirà questa ridicola persecuzione, ver/gogna. #Cannabis #LegalizeIt #spininelfianco
+      📢 Il proibizionismo non ha mai risolto problemi. Ci sono 6 milioni di consumatori di #Cannabis, in Italia. Un mercato enorme, attualmente nelle mani delle mafie. È una questione urgente, e si è già perso troppo tempo
+      Sarà la cannabis a salvare Taranto dal disastro ambientale dell’Ilva #curioso by @alanfriedmanit #spininelfianco
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio @GiuseppeConteIT Sfruttate al meglio i semi di Canapa Indiana e seminateli ovunque. by George Washington #spininelfianco
+      La legalizzazione della marijuana non è un esperimento pericoloso; il proibizionismo è l'esperimento ed è fallito drammaticamente, con milioni di vittime in tutto il mondo. #spininelfianco
+      📢 @GiuseppeConteIT Il Governo dovrà prima o poi assumere una decisione, ma la vostra posizione non è chiara per nulla #spininelfianco
+      Il proibizionismo ha fallito! Chiunque oggi, con tutta l'informazione disponibile, gli studi e tutte le testimonianze, continua a difendere il proibizionismo della #cannabis, o è uno stupido o è colluso con le #mafie! #spininelfianco pic.twitter.com/3o2cLMAb1Z
+      @GiuseppeConteIT C'è la necessità urgente di regolamentazione. Molti soggetti si stanno proponendo nel mercato del #cannabusiness, servono però leggi certe che tutelino consumatori, aziende ed investitori. L'#Italia sarà un'avanguardia del settore. pic.twitter.com/6r0dI7gjd6
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 La legalizzazione non è più un opzione #spininelfianco #cannabis
+      @GiuseppeConteIT #spininelfianco per ricordarvi incessantemente che il proibizionismo ha fallito e foraggia solo la mafia. #cannabis legale per dare un’iniezione di vita all’economia. #spininelfianco ora è più che mai necessario. #legalizeIT pbs.twimg.com/media/EcFLItLXYAAfOMB?format=jpg
+      @GiuseppeConteIT chi non ritwitta non è figlio di “maria” #cannabis #legalizeIT #legalizzarePERripartire #erbaspinella #spininelfianco
+      @GiuseppeConteIT mi appello all’articolo tre della Costituzione: la mia persona si sviluppa pienamente con l’utilizzo della #cannabis e non vi sono bilanciamenti con altrui diritti da porre in essere. non c’è motivo perché non sia legale #spininelfianco
+      Vogliamo fare sapere a @meb @crippa5stelle @graziano_delrio perchè devono calendarizzare il disegno di legge popolare per la legalizzazione della #cannabis? dite la vostra rispondendo con l'aggiuntà di #spininelfianco.
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Semplice, vogliamo che sia legale ora! #cannabis #spininelfianco
+      @GiuseppeConteIT Come potete continuare a considerare una #pianta, ILLEGALE? È un dono della nostra madre terra, come potete criminalizzarla, chi credete di essere? #spininelfianco https://youtu.be/DijTQuNJXTI
+      @GiuseppeConteIT la macchina del proibizionismo schiaccia tra i propri ingranaggi l’anelito di milioni di italiani che chiedono la #cannabis legale. #spininelfianco per dar voce alla speranza di frantumare il meccanismo
+      @crippa5stelle @meb @graziano_delrio 📢 gli elettori chiedono sia calendarizzata la legge di iniziativa popolare sulla #cannabis che giace in qualche cassetto! capite, gli elettori!? sai mai che alle prossime urne qualcuno si ricorderà di questo atteggiamento! #spininelfianco
+      twitta anche tu con il tag #spininelfianco per entrare nella fantastica galassia di chi vuole la #cannabis finalmente legale twitter.com/MaryNewsWeb/status/1288554729858052096?s=20
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 meno Gesù più Maria #spininelfianco
+      @GiuseppeConteIT #chilhavisto il disegno di legge popolare depositato alla Camera per la legalizzazione della #cannabis?! andrebbe calendarizzato #spininelfianco
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Oh sono ancora qui #spininelfianco pbs.twimg.com/media/EcMMLgsWkAIXu71?format=jpg
+      @GiuseppeConteIT 📢 #Madonna è l'altro nome di Maria, Maria è l'altro nome della #cannabis che è #megliolegale #LegalizeIt #spininelfianco
+      @GiuseppeConteIT 📢 Con il proibizionismo in #Italia un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! pic.twitter.com/AGx1pxiSHL
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #LegalizeIt #Cannabis #spininelfianco
+      @GiuseppeConteIT La repressione proibizionista è stata utile?\nSì, per le organizzazioni criminali! #LegalizeIt #Cannabis #spininelfianco pic.twitter.com/fjg1BOk1cT
+      @GiuseppeConteIT Le prove scientifiche aumentano, ed è solo una questione di tempo prima che la #cannabis diventi disponibile in tutto il mondo. #LegalizeIt #spininelfianco @pdnetwork @ItaliaViva @Mov5Stelle @LegaSalvini etc...etc.. Cosa aspettiamo?
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Il proibizionismo non taglia i vizi, è provato: alimenta solo le mafie e la malavita. #spininelfianco
+      Ecco. Sapresti dirlo meglio?!? Invia il tuo #comingouTHC sul tuo rapporto con la #Cannabis allo 0418trecentotrenta, dalle 16 alle 24, 8 volte al minuto, per partecipare al concorso. Campagna promossa da una cosa tipo pubblicità progresso, solo che si chiama #spininelfianco
+      Ho sempre provato vergogna ad argomentare a favore della legalizzazione delle droghe leggere. L’assurdità del proibizionismo mi ha infatti sempre fatto pensare che sostener(la) fosse troppo noioso, ovvio al punto da essere un insulto all’intelligenza #spininelfianco pudici
+      E questa è di nuovo una risposta che non puoi capire se la tua domanda è ma non è meglio un tramonto, una pizza, una passeggiata? #spininelfianco per safe & great sex https://twitter.com/Intl_Highlife/status/1291438647884091393?s=20
+      Semplice e piano: pur di non concedere diritti che nulla tolgono, c'è chi addurrebbe pure il riscaldamento globale negato fino al giorno prima quale ben altro problema. Stesso discorso x il #proibizionismo sulla #Cannabis e altre droghe illegali, e #spininelfianco ci sta bene
+      Perché queste richieste non vadano perdute a chi bisogna rivolgersi perché si sblocchino le proposte sulla #legalizzazione della #Cannabis depositate in Parlamento? @crippa5stelle ? @graziano_delrio ? #spininelfianco? @SpinellidItalia ? https://twitter.com/Radicali/status/1286296250963435520?s=20
+      Su @dolcevita_mag lessi di un ex sbirro che scoprì sollievo alla sua malattia, metti fosse #SLA (e poi ci fondò pure un'associazione) fumando #Cannabis a casa di amici: ma secondo me questi non l'avevano presa in farmacia... https://twitter.com/newsmarijuanait/status/1282737091810664452?s=20
+      📢 Per poliglotti ghiotti. Di #Cannabis #spininelfianco https://www.youtube.com/watch?v=Hm__xrJegCk
+      Ma io lo vorrei proprio vedere ( @vascorossi mode) un legislatore strafatto di #Cannabis con #THC allo 0,7%, voglio proprio vedere come va a finire... #spininelfianco omeopatici https://twitter.com/newsmarijuanait/status/1292184897348669440?s=20
+      “Se a un ragazzino dico ‘le canne sono uguali all’eroina e fanno malissimo’, cosa capisce? Se nove su dieci fumano #cannabis e ne conoscono gli effetti sono autorizzati a pensare che anche assumere eroina non sia poi così pericoloso” Giancane, Sert Bologna umbriaon.it/sulle-morti-di-terni-la-firma-del-metadone
+      E lo stanno scoprendo sempre più persone, peccato anche la ricerca sia penalizzata dal #proibizionismo sulla #Cannabis, ma passerà anche questo oscurantismo. #spininelfianco per la fiducia nel futuro. twitter.com/DalilaAdrower/status/1290936306734788613?s=20
+      Ma guarda, uguale uguale in Italia, ma qui non sono le guardie a dire che il #proibizionismo su #Cannabis e altre droghe illegali ha anche queste finalità, menomale qualcuno lo dice, ht #spininelfianco twitter.com/collectifPCP/status/1290056719318450176?s=20
+      📢 @GiuseppeConteIT 40 anni, e siamo sempre lì: youtube.com/watch?v=jdI3uSjKE34 twitter.com/bulide3/status/1284201298015944705?s=20
+      📢 @GiuseppeConteIT Legalizziamo per togliere soldi alle mafie. Chiediamo al Presidente di rendere concreta una misura che colpirebbe direttamente gli introiti della criminalità organizzata, creando al contempo posti di #lavoro. La #Cannabis è #MeglioLegale.
+      @GiuseppeConteIT La legalizzazione della #cannabis comporterebbe introiti per 10 miliardi di euro e 350000 nuovi posti di lavoro, oltre a tutelare la salute pubblica e ridurre il narcotraffico. Ci sembrano ottimi motivi per procedere il più velocemente possibile. #spininelfianco
+      La legalizzazione della #Cannabis porterebbe in #Italia l'apertura di un nuovo mercato. I canali di informazione però ignorano questo settore economico, impedendo di fatto di riaccendere il dibattito
+      Buongiorno Per amore dei nostri figli, per il bene dell’Italia, in difesa dei nostri valori e del nostro futuro. Possono anche processare 20enni per 2 piante di #cannabis, ma non potranno mai arrestare le nostre idee e la nostra voglia di Libertà. Non molliamo. #spininelfianco
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Legalizzatela Porci ... #spininelfianco #legalizemarijuana
+      È inutile che proviate a far passare gli #spininelfianco per drogati, metà delle persone che usa l'hashtag non fuma. Parliamo di lotta alla mafia, di gettito fiscale, di salute pubblica e di libertà personali. Se pensate che ancora urlarci 'drogati' funzioni, abbiamo quasi vinto.
+      Scudare 5 mln di euro dalla svizzera è legale. Coltivare una piantina di cannabis può significare sequestri,articoli sui giornaletti,stigma sociale,perdita del lavoro e una condanna penale. Questo è un grande paese. #spininelfianco per #Legaladrona
+      Non voglio la legalizzazione della #cannabis per avere la possibilità di fumare. Io fumo già ogni giorno. La voglio legale perché non voglio più rotture di coglioni. È difficile da capire? #spininelfianco #legalizeit
+      @GiuseppeConteIT Vogliamo la legalizzazione della cannabis! Ora! #spininelfianco #legalizeIt
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 #LegalizeIt #Cannabis #spininelfianco
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 ORA! #LegalizeIt #Cannabis #spininelfianco
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Tra una canna e una sigaretta meglio una canna by Umberto Veronesi #cannabis #LegalizeIt #spininelfianco
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 In uno studio scientifico hanno stimato che la #cannabis è circa 114 volte meno mortale dell'alcol Info ncbi.nlm.nih.gov/pmc/articles/PMC4311234/
+      @GiuseppeConteIT Legalizzando le droghe, il consumo aumenterebbe? NO. È dimostrato dai Paesi che hanno già legalizzato. MENO consumatori. MENO morti. MENO criminalità. #Cannabis #LegalizeIt
+      @GiuseppeConteIT Adesso pensi però anche ai circa 6 mln di consumatori di #cannabis che ogni giorno chiedono a gran voce che sia regolamentata e legalizzata -Meno soldi alle mafie  più soldi allo stato e circa 350.000 posti di lavoro, di una industria totalmente green.
+      @GiuseppeConteIT La politica richiede serietà. La nostra proposta di legalizzare la #cannabis è supportata da studi che ne espongono i razionali e accreditano gli impatti sociali ed economici. In assenza di tutto questo, le vostre proposte, ai nostri occhi, sono solo pubblicità.
+      @GiuseppeConteIT Facciamo il deserto intorno alla #mafia iniziamo con la #legalizzazione #cannabis #cannabislegale #megliolegale #spininelfianco #nomafia #legalizzala
+      @GiuseppeConteIT Legalizzazione della #cannabis. Passare presto da narcotraffico mafioso a settore produttivo per 350.000 lavoratori onesti. Ora. Subito! #spininelfianco
+      @GiuseppeConteIT @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Basta arresti, basta persecuzioni, la vogliamo legale adesso! #spininelfianco #megliolegale #cannabis
+      Durissimo colpo alla #mafia da parte del Premier @GiuseppeConteIT ! Tra pochissimo , oltre alla conclamata fuga di cervelli. Ci sarà la fuga dei fumatori di #cannabis ! Destinazione , Svizzera , Spagna , Belgio , Portogallo .. Ovunque insomma , fuorché in Italia! #spininelfianco
+      @GiuseppeConteIT La legalizzazione della #cannabis sarebbe un duro colpo al business delle mafie e allo stesso tempo arrichirebbe le casse dello stato come succede nei tanti paesi che legalizzano. Una discussione seria del tema è doverosa, non crede? #spininelfianco #iocoltivo
+      @FrancescoLollo1 @meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio @AndreaOstellari @matteorenzi @vitocrimi @ale_dibattista @nzingaretti @Am_Parente CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la cannabis
+      @FrancescoLollo1 @meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la cannabis depositato in Senato da @ManteroM5S
+      📢 In Italia abbiamo un parlamento prigioniero dell’ideologia proibizionista. Vogliamo una vera riforma #antiproibizionista che preveda la #legalizzazione della produzione, del commercio e del consumo, anche ricreativo della #Cannabis. #LegalizeIt #MeglioLegale #spininelfianco
+      #InSpagna coltivare #Cannabis è consentito a livello domestico e in associazione. Hanno ridotto il carico dei tribunali, permettendo alle persone di consumare un prodotto di qualità senza finanziare le #narcomafie. @GiuseppeConteIT Perché in #Italia non si può? #spininelfianco
+      📢 Legalizzare la #cannabis, oggi è soltanto una scelta di buon senso. #LegalizeIt #Cannabis #spininelfianco
+      Le droghe sono tutte uguali. Ecco perché mio figlio, fra #cannabis e cocaina, ha scelto la seconda. Gli piaceva di più come era incartata. L'unica differenza era la confezione. Dice. #spininelfianco
+      #SpiniNelFianco allarga la sua famiglia quotidianamente. Ci stiamo scoprendo amici, e legati da qualcosa che va ben oltre l'istanza che si porta avanti. Io dedico questa a tutti voi. Con un vostro piccolo aiuto, amici, andiamo in tendenza? ReTweet! youtu.be/0C58ttB2-Qg
+      @meb @graziano_delrio aspettiamo che vi facciate carico della richiesta di 50.000 cittadini che parlano a nome di 10 milioni di altri. Non smetteremo di essere le vostre #spininelfianco&url=https://t.co/RCzdcGPkIN
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio agosto è finito. Ma a settembre non si va in vacanza, dato che stanno durando da Novembre 2019. Penna, e firme. Calendarizzazione proposta di legge legalizzazione #cannabis. #spininelfianco
+      Tranquilli amici #spininelfianco !! Oggi #15agosto @crippa5stelle @graziano_delrio @meb @orfini @Fornaro62 firmano !! ✍️
+      @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 #Madonna è l'altro nome di Maria, Maria è l'altro nome della #cannabis che è #megliolegale #LegalizeIt #spininelfianco
+      @GiuseppeConteIT @luigidimaio @beppe_grillo @EnricoLetta @emmabonino Vi chiediamo di supportare la battaglia per la #CannabisLegale #spininelfianco #legalizeIT #megliolegale
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Discutiamo la proposta di legge #s1498 #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 #Discutiamo la proposta #S1498 per la #liberalizzazione della cannabis #spininelfianco #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Più posti di Lavoro, più certezze per i consumatori!! #spininelfianco #manifestocollettivo #liberalizzazione #S1498 #FinoAllaLibertà
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 La nostra libertà è un diritto che dovete garantirci! #liberalizzazione  #FinoAllaLibertà  #cannabis #spininelfianco #S1498
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Chiediamo al Parlamento un giusto trattamento!! #S1498  #spininelfianco #FinoAllaLibertà #liberalizzazione #cannabis
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 La Cannabis è una risorsa, per tutti!! #S1498 #spininelfianco #liberalizzazione #cannabis  #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Preferite l'illegalità per la vostra moralità? #s1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Seminiamo pace sotto la tempesta! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Vogliamo legalità chiediamo Giustizia! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Rilanciamo l'Italia con l'economia cannabica! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 1 Pianta 1000 Vantaggi! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Facciamo RIFIORIRE l'Italia! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Il mercato illegale è malsano e ci fa male! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Preferite l'illegalità per la vostra moralità? #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo 
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Stop ai regali alle Narcomafie. #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo pic.twitter.com/ALzhyt55g3
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Liberi di coltivare per uso personale. #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo pic.twitter.com/ALzhyt55g3
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Vogliamo una discussione vera per il bene della società intera! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo pic.twitter.com/ALzhyt55g3
+      @GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #S1498 #spininelfianco #liberalizzazione #cannabis #manifestocollettivo pic.twitter.com/ALzhyt55g3
+      
+      
+    </div>
+
+  </div>
+<div id="twit"></div>
+<!-- partial -->
+<script type="text/javascript">
+// NOTE: keep code AFTER the markup, when programming without using functions. Or use document.ready().
+
+
+// DEFINE CONFIG
+
+var config = {
+  facebook_user: 'github.io'
+};
+
+// DEFINE FUNCTIONS
+
+function loadTweetBombs() {
+  var NEWLINE_SEPARATOR = '\n';
+
+  // get HTML and DATA for tweets, that will be mixed to generate the list of links
+  // (jquery works with the same selectors as CSS)
+  var tweet_template = $('#tweet_button_template').html();
+  var tweets_data = $('#tweets_data').text()
+                                   .split(NEWLINE_SEPARATOR);
+
+  // loop through the tweets, add the data to the html template,
+  // and add the new element into the list
+  for (var i=0; i < tweets_data.length; i++) {
+    // get tweet text
+    var tweet = tweets_data[i].trim();
+
+    // skip empty lines
+    if (tweet.trim().length === 0) {
+      continue; // skip this 'for' loop cycle
+    }
+
+    var last_btn = buildButtonFor(tweet, tweet_template);
+  }
+
+  /* after creating the markup for the buttons, via jQuery,
+     initialize the HTML element that have the data attribute 'data-toggle',
+     to enable the popover behaviour
+  */
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  });
+
+}
+
+function buildButtonFor(text_to_send, template_html) {
+    // copied by the default value of the 'template' parameter (see https://getbootstrap.com/docs/4.1/components/tooltips/)
+    var base_tooltip_html = '<div class="popover" role="tooltip"><div class="arrow"></div><div class="popover-body"></div></div>';
+
+    return $(template_html)
+      .attr('title', text_to_send)      // set target title
+      // set bootstrap parameters
+      .attr('data-toggle', 'popover')           // mark element as popover, so Bootstrap sees it
+      .attr('data-html', true)                  // enable interpretation of html code
+      // provide the content, as tooltip
+      .attr('data-content', buildTooltipHtmlFor(text_to_send))
+      .attr('data-template', base_tooltip_html)
+      .appendTo('#tweet_list'); // add to tweet-list
+      // returns the created button element, in case is needed
+}
+
+function buildTooltipHtmlFor(plain_unencoded_text) {
+    var link_twitter = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(plain_unencoded_text);
+    var link_facebook = "https://www.facebook.com/sharer/sharer.php" +
+                            "?u="+ config.facebook_user +
+                            "&quote=" + encodeURIComponent(plain_unencoded_text);
+
+    // create new <p>aragraph displaying the bomb text, plus <a>nchors to link to the target social medias
+    var $content = $('<p class="bomb-text">').text(plain_unencoded_text);
+
+    var $tw_link = $('<a class="twitter-text">').attr({
+        href: link_twitter,
+        title: plain_unencoded_text,
+        target: '_blank'
+    }).text('Twitter');
+
+    var $fb_link = $('<a class="facebook-text">').attr({
+        href: link_facebook,
+        title: plain_unencoded_text,
+        target: '_blank'
+    }).text('Facebook');
+
+    // assemble the pieces (in order) and return the resulting content
+    return $('<div>')                   // create default tooltip structure
+            .append($content)           // append the elements inside tooltip-inner
+            .append($tw_link)
+            .append($fb_link)
+        .html();                        // return the generated HTML
+}
+
+
+// RUN SCRIPT
+
+window.onload = function() {
+  //call when everything has loaded
+  loadTweetBombs();
+};
+</script>
+
+</body>
+</html>
