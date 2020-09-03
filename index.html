@@ -228,16 +228,18 @@ function buildTooltipHtmlFor(plain_unencoded_text) {
 
     // create new <p>aragraph displaying the bomb text, plus <a>nchors to link to the target social medias
     var $content = $('<p class="bomb-text">').text(plain_unencoded_text);
+
     var $tw_link = $('<a class="twitter-text">').attr({
         href: link_twitter,
         title: plain_unencoded_text,
         target: '_blank'
-    });
+    }).text('Twitter');
+
     var $fb_link = $('<a class="facebook-text">').attr({
         href: link_facebook,
         title: plain_unencoded_text,
         target: '_blank'
-    });
+    }).text('Facebook');
 
     // assemble the pieces (in order) and return the resulting content
     return $('<div>')                   // create default tooltip structure

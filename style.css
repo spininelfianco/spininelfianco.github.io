@@ -177,3 +177,5 @@ html, body {
 .popover .popover-body .bomb-text {
     font-size: 20px;
 }
+.popover .popover-body a {
+    display: block;
