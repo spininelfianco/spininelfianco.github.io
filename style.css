@@ -162,3 +162,18 @@ html, body {
   padding: 0.5rem;
   text-align: center;
 }
+
+
+
+
+
+/*
+    Customize Bootstrap 4 style
+    
+    Do not edit the original framework code.
+    Just overwrite rules, specifying a CSS selector with a higher "CSS specificity"
+*/
+
+.popover .popover-body .bomb-text {
+    font-size: 20px;
+}
