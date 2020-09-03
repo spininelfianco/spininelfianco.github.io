@@ -173,9 +173,12 @@ html, body {
     Do not edit the original framework code.
     Just overwrite rules, specifying a CSS selector with a higher "CSS specificity"
 */
-
+a.post_btn {
+    font-size: 2em;
+}
 .popover .popover-body .bomb-text {
     font-size: 20px;
 }
 .popover .popover-body a {
     display: block;
+}
