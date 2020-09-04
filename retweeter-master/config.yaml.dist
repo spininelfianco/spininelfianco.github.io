@@ -1,0 +1,41 @@
+# RETWEETER configuration
+# This is a comment.
+
+# Authentication credentials
+# generated via https://developer.twitter.com/
+API.Twitter:
+    access_key: '   CONFIGURE ME    '
+    access_secret: '    CONFIGURE ME    '
+    consumer_key: '   CONFIGURE ME    '
+    consumer_secret: '    CONFIGURE ME    '
+
+trend:
+  # "Where On Earth IDentifier - String"
+  #   (https://en.wikipedia.org/wiki/WOEID)
+  # Search trends into this area.
+  #
+  woeid: '721943'   # ROME/Italy
+
+mention:
+  # "Search text" - String
+  # Term to search into own mentions; retweet if the term is in contained in the text.
+  #
+  search: '#sometag'
+
+retweet:
+  # "Retweet messages" - List of messages
+  # They will be picked randomly and used as text for the retweet of mentions.
+  #
+  #   messages:
+  #   - 'one foobarish example of tweet'
+  #   - "This is how I found God"
+  #
+  # Note:
+  # - remember to consider the max lenght of a tweet, when adding new messages
+  # - double-quote/aphex strings should be escaped with slash; e.g. 'D\'Artagnan'
+  #
+  with_messages:
+  - "esempio tweet"
+  - "#iGattiniOdianoSalvini https://imgur.com/0ZlAC0P"
+  - "https://imgur.com/miOWDkq"
+  - "#iGattiniOdianoSalvini https://imgur.com/0ZlAC0P"
