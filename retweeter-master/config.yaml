@@ -1,0 +1,91 @@
+# RETWEETER configuration
+# This is a comment.
+
+# Authentication credentials
+# generated via https://developer.twitter.com/
+API.Twitter:
+    access_key: 'mettiCHIAVEqui'
+    access_secret: 'mettiCHIAVEqui'
+    consumer_key: 'mettiCHIAVEqui'
+    consumer_secret: 'mettiCHIAVEqui'
+
+trend:
+  # "Where On Earth IDentifier - String"
+  #   (https://en.wikipedia.org/wiki/WOEID)
+  # Search trends into this area.
+  #
+  woeid: '721943'   # ROME/Italy
+
+mention:
+  # "Search text" - String
+  # Term to search into own mentions; retweet if the term is in contained in the text.
+  #
+  search: '#spininelfianco'
+
+retweet:
+  # "Retweet messages" - List of messages
+  # They will be picked randomly and used as text for the retweet of mentions.
+  #
+  #   messages:
+  #   - 'one foobarish example of tweet'
+  #   - "This is how I found God"
+  #
+  # Note:
+  # - remember to consider the max lenght of a tweet, when adding new messages
+  # - double-quote/aphex strings should be escaped with slash; e.g. 'D\'Artagnan'
+  #
+ with_messages:
+  - "#Cannabis #LegalizeIt #LegaizzarePerRipartire https://imgur.com/a/yQvOaJS"
+  - "RTwitto come un forsennato per far si che la #Cannabis sia legale #LegalizeIt"
+  - "Doc The Culture High 2015 Directed by: Brett Harvey https://youtu.be/GRvo9QabEIg #cannabis"
+  - "Doc Grass Is Greener #Netflix documentary featuring Snoop Dogg, Darryl DMC McDaniels and more https://www.youtube.com/watch?v=IET4K5npNOg #cannabis #legalizeIt"
+  - "Doc WEED This #cannabis documentary features several medical #marijuana patients. https://www.youtube.com/embed/hrVXRZY1_x0"
+  - "Doc THE LEGEND OF 420 https://youtu.be/mhn9YLTPAk8 #Cannabis #LegalizeIt #LegalizzarePerRipartire"
+  - "Doc Canapa Nostra https://youtu.be/SitmfLtnQtE #legalizeIt #Cannabis"
+  - "Capite il ruolo che potrebbe avere a livello economico, ambientale e medico? @GiuseppeConteIT @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini @ItaliaViva etc. 3 punti: la #legalizzazione ricreativa, il futuro come risorsa agroindustriale e il mondo medico. https://imgur.com/y6tAmsl"
+  - "Senza Freni, senza pudore e senza vergogna è il fatto che ancora nessuno abbia discusso la PDL 1498 depositata al @SenatoStampa da Novembre 2019.. #spininelfianco x #legalizzareperripartire #cannabis @M5S_Senato @SenatoriPD @pdnetwork @Mov5Stelle @ItaliaViva https://imgur.com/IzWEta9"
+  - "Obiettivo finale unico e chiaro: la liberalizzazione totale della #cannabis! #LegalizeIt #LegalizzarePerRipartire"
+  - "Esistono moltissimi modi per somministrare la #cannabis a scopo terapeutico. I più diffusi sono i vaporizzatori che evitano la combustione, ma anche tisane, alimenti creme ecc.. Link per approfondire se ne ha la necessità. https://cannabiscienza.it/pubblicazioni/assunzione/come-si-usa-la-cannabis-terapeutica/ #LegalizeIt"
+  - "Vogliamo una legislazione #antiproibizionista e un orientamento di governo tollerante. Chiediamo che la cannabis ed i suoi derivati siano legalizzati senza restrizioni né al consumo né alla coltivazione. #Cannabis #LegalizeIt https://imgur.com/MoMgiht"
+  - "Facciamo le cose per bene, se vuoi far sapere a @GiuseppeConteIT che gli italiani sono stufi di foraggiare la mafia e sono per la legalizzazione della #cannabis ritwitta. è il momento di #legalizzarePERripartire #legalizeIT"
+  - "Doc ERBA PROIBITA 2002 Il film racconta della cattiva informazione intorno alla #canapa ai suoi effetti e alla storia produttiva e lavorativa in Italia prima che questa venne proibita... https://www.youtube.com/watch?v=aP5qewDyKCk #cannabis LegalizeIt"
+  - "Lottiamo tutti insieme per la causa #LegalizzarePerRipartire #cannabis https://imgur.com/gM0e0xT"
+  - "Legalizzazione: Ecco cosa sogniamo per il nostro paese #LegalizeIt #LegaizzarePerRipartire #Cannabis https://imgur.com/kJDmWo8"
+  - "Ecco 7 Films Documentari sulla Cultura della #Cannabis: https://www.freeweed.it/7-films-documentari-sulla-cultura-della-cannabis/ #LegalizeIt #LegaizzarePerRipartire"
+  - "Doc Weed The People è un documentario sulla #cannabis terapeutica per il trattamento del cancro. https://www.youtube.com/watch?v=SVO7idolSUs"
+  - "Doc Rolling Papers offre una prospettiva inedita e divertente della cultura della #cannabis #LegalizeIt #CannabisComunity https://www.youtube.com/watch?v=Ew5HwXz2sWA"
+  - "Legalizzare per togliere soldi alle mafie. Domanda: Sono idioti per voi? #LegalizeIt #Cannabis #LegalizzarePerRipartire https://imgur.com/QVFKkpt"
+  - "Cosa consente di generare 350.000 nuovi posti di lavoro? Esattamente! La legalizzazione della #cannabis! #LegaizzarePerRipartire #LegalizeIt"
+  - "#CANNABIS LIBERA! Una battaglia che va al di là della politica e dei partiti: è una pianta, per TUTTI ingiustamente proibita che ingrassa la mafia da troppo tempo. Legalizziamola! #LegalizeIt"
+  - "Quanto tempo, denaro perso e impiego di agenti per rincorrere una pianta innocua! La #Cannabis è #MeglioLegale ! #LegalizeIt https://imgur.com/a/BRFd99Y"
+  - "Non so quale sia la maniera giusta di lottare. Non so se fallirò o meno. Ma una lotta giusta la so riconoscere, e per questo sulla #cannabis non mi tirerò mai indietro. E la cosa più bella è che non sono solo. #LegalizzarePerRipartire #LegalizeIt"
+  - "Sosteniamo ovviamente la legalizzazione della #cannabis per #salute, #sicurezza, #giustizia, #economia, #lavoro e #ambiente. Presidente @GiuseppeConteIT le chiediamo gentilmente di chiarire la posizione del governo in merito. #legalizzareperripartire #MeglioLegale"
+  - "Basta legalizzare la #cannabis e i suoi derivati, per creare lavoro, ricchezza, ed indebolire la mafia. Che dice @GiuseppeConteIT la accendiamo? #LegalizeIt #legalizzareperripartire"
+  - "Facciamo le cose per bene, se vuoi far sapere a @GiuseppeConteIT che gli italiani sono stufi di foraggiare la mafia e sono per la legalizzazione della #cannabis ritwitta. è il momento di #legalizzarePERripartire #legalizeIT"
+  - "A tutti gli antipro che leggono, vogliamo che si parli di #cannabis?! che si discuta la legalizzazione in Italia? Twittate usando i tag di questo tweet, possibilmente insieme #legalizeIT #legalizzarePERripartire"
+  - "Manifesto appeso nella sede di @Radicali Italiani. 1979...Più di 40 anni che le persone lottano per la legalizzazione e nessuno che ascolta. Oggi sarà la volta buona? https://imgur.com/Doad0Rs #cannabis #LegalizeIt #LegalizzarePerRipartire"
+  - "La legalizzazione della #cannabis deve diventare una lotta di tutti. Grazie per il vostro impegno! #SpininelFianco #LegalizeIt #LegaizzarePerRipartire"
+  - "Legalizziamo la #cannabis per il bene di tutti! #LegaizzarePerRipartire #LegalizeIt"
+  - "#LegalizeIt #Cannabis, mettiamo fine al proibizionismo! #MeglioLegale https://imgur.com/4Odrn9x"
+  - "RTwitto come un dannato per far sì che la #Cannabis sia legale #LegalizeIt https://imgur.com/LADNPb5"
+  - "Efficace per trattamento del dolore cronico,del dolore da sclerosi multipla e da lesioni del midollo. Efficace contro effetti collaterali di chemio,radio e terapie per HIV. Stimolante contro i disturbi di appetito. Efficace per glaucoma e sindrome di Tourette. #cannabis"
+  - "Lottiamo assieme a voi per abbattere preconcetti e disinformazione in materia di #cannabis, con l’obiettivo di riunirci tutti attorno a un unico punto programmatico: #LEGALIZZAREperRIPARTIRE"
+  - "Vogliamo solamente aprire un nuovo settore opportunamente regolamentato per dare opportunità di #impresa, #lavoro, #ricchezza. Il mercato della #cannabis già esiste, ma è in mano alle persone sbagliate, a rischio e danno della collettività. #LEGALIZZAREperRIPARTIRE"
+  - "Noi vogliamo solo una cosa. #LEGALIZZAREperRIPARTIRE per farlo dobbiamo insieme fare pressione ai politici che ci governano, o sostituirli alle prossime elezioni. https://imgur.com/md5WB28"
+  - "Un solo punto programmatico: legalizzare per ripartire. #LegalizeIt #MeglioLegale #Cannabis #LegaizzarePerRipartire"
+  - "https://i.imgur.com/a7vq52k #cannabis #megliolegale #streetart"
+  - "Doc Super High me Il comico Doug Benson fa il verso al documentario sui fast food Super Size me, questa volta virando sul consumo di #cannabis in #California. https://www.youtube.com/watch?v=nw_YsqfJJRM"
+  - "Doc Cannabis: una storia perduta 2018, uso della cannabis in culture diverse. https://www.youtube.com/watch?v=X2p6qFT_Zjg #LegalizeIt #Cannabis"
+  - "Doc Grassroots: The Cannabis Revolution, documentario finanziato da #Kickstarter esplora uso medicinale della cannabis e una campagna per cambiare la legge sulla cannabis medicinale nel Regno Unito. https://www.youtube.com/watch?v=mlQ9AFjsVK8"
+  - "Giusto o sbagliato non può essere reato https://imgur.com/LgIIc9I #Cannabis #LegalizeIt"
+  - "The Union: il business dietro high. Un documentario canadese che esplora la crescita e la distribuzione del mercato sotterraneo della #Cannabis in #Canada. https://www.youtube.com/watch?v=rwkFmvIg4CU"
+  - "Free Weed in #Italy! #LegalizeIt #Cannabis https://imgur.com/FgciS4E"
+  - "#LegalizeIt https://i.imgur.com/LkncLZj.jpg #cannabis #StreetArt"
+  - "Adesso basta con il proibizionismo! #cannabis #LegalizeIt https://imgur.com/fHAA2Bp"
+  - "La legalizzazione della cannabis in diversi Paesi ha incrementato notevolmente il numero di ricerche e scoperte scientifiche su questa pianta. E noi in #Italia? #LegalizeIt #Cannabis https://imgur.com/lo4m86N"
+  - "Facciamoci una lettura sulla #cannabis! https://www.royalqueenseeds.it/blog-top-10-i-migliori-libri-sulla-cannabis-n223"
+  - "Facciamoci una lettura sulla #cannabis! https://imgur.com/fSiKGjR Cannabis A Complete Guide: https://archive.org/details/CannabisACompleteGuide2016"
+  - "Facciamoci una lettura sulla #cannabis! I MIGLIORI LIBRI SULLA COLTIVAZIONE DELLA #CANNABIS via @Zamnesia https://www.zamnesia.net/it/blog-migliori-libri-coltivazione-cannabis-n1225"
+  - "Una risorsa per tutto il pianeta terra! #Cannabis #LegalizeIt #LegalizzarePerRipartire https://imgur.com/7hjXnU6"
+  - "Controlli, perquisizioni, arresti, botte, vere e proprie persecuzione di massa. Siamo stanchi! Ma non ci fermeremo nel rivendicare le nostre libertà, fino alla fine del proibizionismo omicida
+  - "Creare una cultura del consumo critico e consapevole #LegalizeIt #cannabis #spininelfianco"
