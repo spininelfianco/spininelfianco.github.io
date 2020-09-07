@@ -5,13 +5,65 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
+    quote: '📢 La #resistenza al #proibizionismo continua: 50 anni di lotte per la legalizzazione della #cannabis, aborto, divorzio, diritti #lgbt+, staminali, eutanasia...Rivendichiamo un valore fondamentale del nostro vivere insieme: la libera scelta delle persone. pic.twitter.com/qwm8pfSEtj',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
     quote: '📢 Un solo punto programmatico legalizzare per ripartire. 🥦 #LegalizeIt #MeglioLegale #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
+    quote: '📢 "Il #proibizionismo genera domanda di #mafia per la gestione del mercato" #Italia #megliolegale #melemarce #spininelfianco https://pic.twitter.com/1dtHgGRX7r',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '📢 L’insensato #proibizionismo deve finire! La #cannabis può, una volta liberata, svolgere un ruolo fondamentale per il futuro del nostro paese, sul piano economico, sul piano sociale e sul piano di contrasto alla criminalità organizzata. #spininelfianco https://pic.twitter.com/TRVi6aW5uQ',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '📢 "L’ignoranza uccide!" Soluzione: + Fare informazione per raggiungere più persone possibili e raccontare loro che la #cannabis, che è stata trasformata in un problema, può tornare ad essere una risorsa, per tutti. #spininelfianco https://pic.twitter.com/bkbx0vzPWs',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '📢 "Per anni il proibizionismo della #cannabis ha gravemente danneggiato la salute pubblica, violato i diritti umani, sovraccaricato il sistema di giustizia penale e sprecato enormi risorse, per una lotta insensata ad una pianta dai mille benefici. #Legalizzatela! #spininelfianco https://pic.twitter.com/ifQUNtMKj5',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
     quote: '“Sarà la cannabis a salvare Taranto dal disastro ambientale dell’Ilva #curioso” by @alanfriedmanit',
     author: '#spininelfianco',
     link: '#'
+  }, {
+    quote: '#THC effetti terapeutici. #spininelfianco #cannabis #manifestocollettivo #legalizeIt https://pic.twitter.com/6OL0otO6Il',
+    author: '#spininelfianco',
+    link: '#'
+  }, {
+    quote: '@graziano_delrio le scriviamo tutti i giorni per avere anche solo una sua risposta.Attendiamo la calendarizzaZione sulla proposta di legalizzare la cannabis, ci sono 40k firme e circa 10 mln di cittadini interessati. O usa Twitter a senso unico per scrivere e mai per rispondere? https://pic.twitter.com/gKPwx8yM62',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: 'Fumare erba potrebbe effettivamente renderti un autista più sicuro Una sorprendente ricerca, condotta dai professori D. Mark Anderson e Daniel Rees, dimostra che le morti per traffico sono diminuite negli stati in cui la #cannabis è stata legalizzata. https://iza.org/publications/dp/6112… https://pic.twitter.com/Ha6FSfpirX',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: 'Piantiamola! @GiuseppeConteIT @pdnetwork @Mov5Stelle etc... Facciamo finalmente qualcosa di buono per il nostro pianeta. #cannabis #ambiente #legalizzatela #spininelfianco https://pic.twitter.com/X2nyps9XJW',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: 'Quando la #cannabis è usata in modo responsabile, può aiutare le persone a rilassarsi, ad accrescere la loro creatività e migliorare la qualità della loro vita. Criminalizzare e sottoporre i consumatori a dure sanzioni penali e civili è un’ingiustizia terribile. #spininelficanco https://pic.twitter.com/0ODdm2n2TS',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: 'La regolamentazione dell’#alcol ha consentito la tutela della salute pubblica, e la possibilità di curarne la dipendenza. La #cannabis non da dipendenza, perché lo stato si rifiuta di regolamentarne il consumo? #spininelfianco https://pic.twitter.com/JR2NNDO0aO',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: 'Legalizzazione #Cannabis : impatto su salute, sicurezza, economia. https://norml.org/marijuana/fact-sheets/marijuana-regulation-impact-on-health-safety-economy/… #spininelfianco #LegalizeIt',
+    author: '#spininelfianco',
+    link: '#'    
+  }, {
+    quote: 'Campagna informativa a favore dell’autoproduzione di #Cannabis per uso personale by @Italia_Freeweed #manifestocollettivo #spininelfianco https://pic.twitter.com/iKii9CLeZJ',
+    author: '#spininelfianco',
+    link: '#'    
   }, {
     quote: 'Sfruttate al meglio i semi di Canapa Indiana e seminateli ovunque. by George Washington',
     author: '#spininelfianco',
