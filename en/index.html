@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>Twitter Storm (ENG)</title>
+
+  <!-- Load Cascade Styling Sheets (CSS) -->
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+  <link rel="stylesheet" href='./style.css'>
+  <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css'>
+
+  <!-- Load Javascript (JS) -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js'></script>
+  <!-- <script src="./main.js"></script> -->
+
+  <!-- Other meta -->
+  <link rel="icon" href="icon.png">
+
+</head>
+<body>
+
+  <div style="text-align: center" id="header">
+    <img src="fly.png" alt="Legalizzazione Cannabis">
+  </div>
+
+  <main id="content" class="tweets">
+    <div id="tweet_list" style="text-align: center">
+      <!-- Generated buttons will be loaded in this container -->
+    </div>
+  </main>
+
+  <!----------------------------------- CONFIG CODE ------------------------------------->
+
+  <div id="tweets_config" style="display: none">
+
+    <!-- TEMPLATE used to generate buttons. Single place to change the markup to display. -->
+    <template id="tweet_button_template">
+      <a class="post_btn">
+        <i class="icon-twitter"></i><span></span>
+      </a>
+    </template>
+
+    <!-- LIST OF TWEETS to create buttons for.
+         One tweet per line. Write in natural language (no escaping/encoding).
+         Empty spaces are removed automatically.
+    -->
+    <div id="tweets_data">
+      The #resistance to #prohibitionism goes on: 50 years of struggles for the legalization of #cannabis, abortion, divorce, # lgbt + rights, stem cells, euthanasia...We reclaim one of the fundamental values of our living together: the freedom of choice. #TheGreenNation #LegalizeIt
+      End #cannabis Criminalization. That's it. That's the tweet. #LegalizeIt #TheGreenNation #CRD #CH420 #FranceVerte #spininelfianco
+      Alcohol is about 114 times more dangerous than #cannabis, and tobacco contains more than seventy carcinogens. If it's a health issue, we have to legalize #cannabis
+      #cannabis legalization is useful for medical research, helps the tourism sector and ensures leaner bureaucratic procedures
+      through #cannabis legalization, the Italian state could create 350k new job places and could earn 10 billion annually
+      #cannabis legalization. in order to fight crime, to create national welfare, to educate our kids and to protect them from more dangerous drugs
+      It's time to end prohibition of Cannabis #TheGreenNation #LegalizeIt
+      Free! Libera! Frei! Libre! #TheGreenNation #CRD #CH420 #FranceVerte #LegalizeIt #spininelfianco
+    </div>
+
+  </div>
+<div id="twit"></div>
+<!-- partial -->
+<script type="text/javascript">
+// NOTE: keep code AFTER the markup, when programming without using functions. Or use document.ready().
+
+
+// DEFINE CONFIG
+
+var config = {
+  facebook_user: 'github.io'
+};
+
+// DEFINE FUNCTIONS
+
+function loadTweetBombs() {
+  var NEWLINE_SEPARATOR = '\n';
+
+  // get HTML and DATA for tweets, that will be mixed to generate the list of links
+  // (jquery works with the same selectors as CSS)
+  var tweet_template = $('#tweet_button_template').html();
+  var tweets_data = $('#tweets_data').text()
+                                   .split(NEWLINE_SEPARATOR);
+
+  // loop through the tweets, add the data to the html template,
+  // and add the new element into the list
+  for (var i=0; i < tweets_data.length; i++) {
+    // get tweet text
+    var tweet = tweets_data[i].trim();
+
+    // skip empty lines
+    if (tweet.trim().length === 0) {
+      continue; // skip this 'for' loop cycle
+    }
+
+    var last_btn = buildButtonFor(tweet, tweet_template);
+  }
+
+  /* after creating the markup for the buttons, via jQuery,
+     initialize the HTML element that have the data attribute 'data-toggle',
+     to enable the popover behaviour
+  */
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  });
+
+}
+
+function buildButtonFor(text_to_send, template_html) {
+    // copied by the default value of the 'template' parameter (see https://getbootstrap.com/docs/4.1/components/tooltips/)
+    var base_tooltip_html = '<div class="popover" role="tooltip"><div class="arrow"></div><div class="popover-body"></div></div>';
+
+    return $(template_html)
+      .attr('title', text_to_send)      // set target title
+      // set bootstrap parameters
+      .attr('data-toggle', 'popover')           // mark element as popover, so Bootstrap sees it
+      .attr('data-html', true)                  // enable interpretation of html code
+      // provide the content, as tooltip
+      .attr('data-content', buildTooltipHtmlFor(text_to_send))
+      .attr('data-template', base_tooltip_html)
+      .appendTo('#tweet_list'); // add to tweet-list
+      // returns the created button element, in case is needed
+}
+
+function buildTooltipHtmlFor(plain_unencoded_text) {
+    var link_twitter = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(plain_unencoded_text);
+    var link_facebook = "https://www.facebook.com/sharer/sharer.php" +
+                            "?u="+ config.facebook_user +
+                            "&quote=" + encodeURIComponent(plain_unencoded_text);
+
+    // create new <p>aragraph displaying the bomb text, plus <a>nchors to link to the target social medias
+    var $content = $('<p class="bomb-text">').text(plain_unencoded_text);
+
+    var $tw_link = $('<a class="twitter-text">').attr({
+        href: link_twitter,
+        title: plain_unencoded_text,
+        target: '_blank'
+    }).text('Twitter');
+
+    var $fb_link = $('<a class="facebook-text">').attr({
+        href: link_facebook,
+        title: plain_unencoded_text,
+        target: '_blank'
+    }).text('Facebook');
+
+    // assemble the pieces (in order) and return the resulting content
+    return $('<div>')                   // create default tooltip structure
+            .append($content)           // append the elements inside tooltip-inner
+            .append($tw_link)
+            .append($fb_link)
+        .html();                        // return the generated HTML
+}
+
+
+// RUN SCRIPT
+
+window.onload = function() {
+  //call when everything has loaded
+  loadTweetBombs();
+};
+</script>
+
+</body>
+</html>
