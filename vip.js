@@ -18,6 +18,10 @@ $(document).ready(function() {
                 'img': 'https://www.scrolldroll.com/wp-content/uploads/2017/06/10-1.jpg'
               }, {
                 'author': '#spininelfianco',
+                'quote': "Selling weed literally went from major felony to essential business (open during pandemic) in much of America & yet many are still in prison. Doesn’t make sense, isn’t right. by @elonmusk",
+                'img': 'https://media2.s-nbcnews.com/i/newscms/2019_19/2853076/190510-elon-musk-mn-0945_35629c9a3ecd00ef8d0f3bd9f7892f7f.jpg'                          
+              }, {
+                'author': '#spininelfianco',
                 'quote': "Raphael Mechoulam è stato il primo a isolare ilΔ9-tetraidrocannabinolo, noto come #THC. È grazie al dottor Raphael che la scienza oggi sta finalmente cominciando a capire la relazione incredibilmente stretta tra cannabinoidi e fisiologia umana. Grazie Dottore!",
                 'img': 'https://pbs.twimg.com/media/EfnfIlwWAAAV2Jz?format=jpg'
               }, {
