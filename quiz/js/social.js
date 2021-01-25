@@ -14,7 +14,7 @@ $('#share-wa').attr('data-url', url).attr('data-title', title).attr('data-sharer
 //facebook
 $('#share-fb').attr('data-url', url).attr('data-sharer', 'facebook');
 //twitter
-$('#share-tw').attr('data-url', url).attr('data-title', title).attr('data-via', via).attr('data-sharer', 'twitter');
+$('#share-tw').attr('data-url', url).attr('data-title', title).attr('data-sharer', 'twitter');
 //linkedin
 $('#share-li').attr('data-url', url).attr('data-sharer', 'linkedin');
   // email
