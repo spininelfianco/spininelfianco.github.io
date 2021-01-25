@@ -17,8 +17,6 @@ $('#share-fb').attr('data-url', url).attr('data-sharer', 'facebook');
 $('#share-tw').attr('data-url', url).attr('data-title', title).attr('data-via', via).attr('data-sharer', 'twitter');
 //linkedin
 $('#share-li').attr('data-url', url).attr('data-sharer', 'linkedin');
-// google plus
-$('#share-gp').attr('data-url', url).attr('data-title', title).attr('data-sharer', 'googleplus');
   // email
   $('#share-em').attr('data-url', url).attr('data-title', title).attr('data-subject', subject).attr('data-sharer', 'email');
 
