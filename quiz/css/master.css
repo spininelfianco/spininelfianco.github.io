@@ -141,5 +141,7 @@ ul.responses li.incorrect p span {
 }
 
 .social a {
-  padding: 0 .5em;
+    padding: 0.2em;
+    color: #46af46;
+    background-color: #ffffff00;
 }
