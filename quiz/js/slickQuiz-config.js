@@ -43,8 +43,8 @@ var quizJSON = {
                 {"option": "Finora ne sono stati identificati circa settanta, ma il più famoso è il THC (delta-9-tetraidrocannabinolo)",     "correct": true},
                 {"option": "Undici, ma il più importante è il delta-9-tetraidrocannabinolo o THC",      "correct": false}
             ],
-            "correct": "<p><span>👍 Bene!</span> Finora sono stati identificati circa 70 principi attivi della Cannabis, ma la ricerca prosegue.<br>Fonte:<a href='https://cannabismd.com/basics/cannabinoids/how-many-cannabinoids-does-cannabis-actually-have/'>How Many Cannabinoids Does Cannabis Actually Have?</a>.</p>".
-            "incorrect": "<p><span>👎 Ops... No.</span> Finora sono stati identificati circa 70 principi attivi della Cannabis, ma la ricerca prosegue.<br>Fonte:<a href='https://cannabismd.com/basics/cannabinoids/how-many-cannabinoids-does-cannabis-actually-have/'>How Many Cannabinoids Does Cannabis Actually Have?</a>.</p>"// no comma here
+            "correct": "<p><span>👍 Bene!</span> Finora sono stati identificati circa 70 principi attivi della Cannabis, ma la ricerca prosegue.<br>Fonte:<a href='https://cannabismd.com/basics/cannabinoids/how-many-cannabinoids-does-cannabis-actually-have/'>How Many Cannabinoids Does Cannabis Actually Have?</a></p>",
+            "incorrect": "<p><span>👎 Ops... No.</span> Finora sono stati identificati circa 70 principi attivi della Cannabis, ma la ricerca prosegue.<br>Fonte:<a href='https://cannabismd.com/basics/cannabinoids/how-many-cannabinoids-does-cannabis-actually-have/'>How Many Cannabinoids Does Cannabis Actually Have?</a></p>"// no comma here
         },
 
 
