@@ -1,6 +1,10 @@
 /* QUIZ STYLES */
 /* Styles to prettify the quiz page */
 
+* {
+  box-sizing: border-box;
+}
+
 html {
     background: #eee;
 }
@@ -144,4 +148,8 @@ ul.responses li.incorrect p span {
     padding: 0.2em;
     color: #46af46;
     background-color: #ffffff00;
+}
+
+.compteur {
+  font-size: 2em;
 }
