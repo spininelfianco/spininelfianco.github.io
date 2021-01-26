@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
 //  https://ellisonleao.github.io/sharer.js/#twitter  
    var url = window.location.href;
    var title = document.title;
-   var subject = "Read this good article";
-   var via = "yourTwitterUsername";
+   var subject = "Quanto ne sai sulla cannabis?";
+   var via = "@acino2020";
    //console.log( url );
    //console.log( title );
 
@@ -15,10 +15,10 @@ $('#share-wa').attr('data-url', url).attr('data-title', title).attr('data-sharer
 $('#share-fb').attr('data-url', url).attr('data-sharer', 'facebook');
 //twitter
 $('#share-tw').attr('data-url', url).attr('data-title', title).attr('data-sharer', 'twitter');
+//telegram
 //linkedin
-$('#share-li').attr('data-url', url).attr('data-sharer', 'linkedin');
-  // email
-  $('#share-em').attr('data-url', url).attr('data-title', title).attr('data-subject', subject).attr('data-sharer', 'email');
+// email
+$('#share-em').attr('data-url', url).attr('data-title', title).attr('data-subject', subject).attr('data-sharer', 'email');
 
 //Prevent basic click behavior
 $( ".sharer button" ).click(function() {

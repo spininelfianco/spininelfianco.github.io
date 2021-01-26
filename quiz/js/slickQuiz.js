@@ -18,10 +18,10 @@
 
             defaults = {
                 checkAnswerText:  'Controlla la risposta!',
-                nextQuestionText: 'Next &raquo;',
-                backButtonText: '',
+                nextQuestionText: 'Avanti &raquo;',
+                backButtonText: 'Indietro',
                 completeQuizText: '',
-                tryAgainText: '',
+                tryAgainText: 'Prova ancora!',
                 questionCountText: 'Domanda %current di %total',
                 preventUnansweredText: 'Devi selezionare almeno una risposta.',
                 questionTemplateText:  '%count. %text',

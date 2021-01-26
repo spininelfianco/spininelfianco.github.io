@@ -68,9 +68,6 @@ ol li { list-style-type: decimal; margin-left: 20px; }
     border-radius: 5px;
 	text-decoration: none;
 }
-.button:hover {
-    background-color:darkslategray;
-}
 
 .startQuiz {
     margin-top: 40px;
