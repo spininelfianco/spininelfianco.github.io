@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="utf-8">
+  <title>Twitter Storm</title>
+
+  <!-- Load Cascade Styling Sheets (CSS) -->
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css'>
+  <link rel="stylesheet" href='./style.css'>
+  <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css'>
+
+  <!-- Load Javascript (JS) -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js'></script>
+  <!-- <script src="./main.js"></script> -->
+
+  <!-- Other meta -->
+  <link rel="icon" href="icon.png">
+
+</head>
+<body>
+
+  <div style="text-align: center" id="header">
+    <img src="main.png" alt="Legalizzazione Cannabis">
+  </div>
+
+  <main id="content" class="tweets">
+    <div id="tweet_list" style="text-align: center">
+      <!-- Generated buttons will be loaded in this container -->
+    </div>
+  </main>
+
+  <!----------------------------------- CONFIG CODE ------------------------------------->
+
+  <div id="tweets_config" style="display: none">
+
+    <!-- TEMPLATE used to generate buttons. Single place to change the markup to display. -->
+    <template id="tweet_button_template">
+      <a class="post_btn">
+        <i class="icon-twitter"></i><span></span>
+      </a>
+    </template>
+
+    <!-- LIST OF TWEETS to create buttons for.
+         One tweet per line. Write in natural language (no escaping/encoding).
+         Empty spaces are removed automatically.
+    -->
+    <div id="tweets_data">
+      📢 La #resistenza al #proibizionismo continua: 50 anni di lotte per la legalizzazione della #cannabis, aborto, divorzio, diritti #lgbt+, eutanasia...Rivendichiamo un valore fondamentale del nostro vivere insieme: la libera scelta delle persone. FIRMA ORA: https://raccoltafirme.cloud/app/user.html?codice=CANNABIS
+      📢 #Legalizzare la #cannabis significa mettere fine agli affari delle mafie, significa riconoscere ai cittadini la libertà di consumare in modo sicuro e responsabile, di curarsi o di intraprendere un’attività economica nella piena legalità. #spininelfianco #ReferendumCannabis
+      📢 La #cannabis può avere un ruolo nella ricostruzione del paese. Una risorsa per tutta la filiera industriale, per la nostra #economia, ma anche per i consumatori che devono avere la possibilità di fruirne liberamente senza essere perseguitati e perseguiti. #ReferendumCannabis
+      📢 L'insensato #proibizionismo deve finire! La #cannabis può, una volta liberata, svolgere un ruolo fondamentale per il futuro del nostro paese, sul piano economico, sul piano sociale e sul piano di contrasto alla criminalità organizzata. #spininelfianco #ReferendumCannabis     
+      📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #ReferendumCannabis #LegalizeIt #Cannabis #spininelfianco
+      📢 Con il proibizionismo in #Italia un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! #ReferendumCannabis pic.twitter.com/AGx1pxiSHL
+      📢 Legalizzare, controllare, tassare. Unica strada sensata. Un giorno si guarderà a questi tempi con gli stessi sorrisi bonari che destiniamo al periodo del proibizionismo statunitense degli anni ‘20. #ReferendumCannabis via @ShooterHatesYou
+      📢 Dicevano "la gente non gliene frega niente di politica". Scoprirono che la gente aveva solo bisogno di altra politica e di nuovi strumenti per partecipare. #ReferendumCannabis via @marcocappato
+      📢 I motivi per legalizzare la cannabis sono così tanti che ha senso essere contrari solo se si è mafiosi. #ReferendumCannabis via @cartonimorti
+      📢 Legalizzare vuol dire togliere ossigeno alle mafie che gestiscono il traffico e lo spaccio. Parte oggi la raccolta firme per depenalizzare la #cannabis, consentendone la coltivazione e aprendo la strada alla #legalizzazione. #ReferendumCannabis via @robertosaviano
+      Il fegato di Gasparri o la faccia della Santanchè il giorno dopo il raggiungimento delle 500.000 firme per il #ReferendumCannabis.. immagina, puoi! #SpiniNelFianco via @@meriadocco
+      📢 Referendum per la cannabis legale . Togliere soldi alle mafie e salvaguardare la salute di tutti. via @GassmanGassmann #ReferendumCannabis
+      📢 Forza che qui si fa la storia! https://referendumcannabis.it via @LegaleMeglio #ReferendumCannabis
+      📢 E tu ancora non hai firmato? https://referendumcannabis.it #ReferendumCannabis via @LegaleMeglio
+      📢 Ci sono 6 MILIONI di consumatori di cannabis che ogni anno sono costretti a rivolgersi alle mafie. Noi vogliamo dare voce a tutte quelle persone che i politici proibizionisti vorrebbero sbattere in galera! Firma anche tu! https://referendumcannabis.it
+      📢 Vogliamo la Cannabis legale e l’Italia libera dalle mafie. Firma anche tu il Referendum per la legalizzazione della cannabis https://referendumcannabis.it via @LegaleMeglio #ReferendumCannabis
+    </div>
+
+  </div>
+<div id="twit"></div>
+<!-- partial -->
+<script type="text/javascript">
+// NOTE: keep code AFTER the markup, when programming without using functions. Or use document.ready().
+
+
+// DEFINE CONFIG
+
+var config = {
+  facebook_user: 'https://spininelfianco.github.io/storm08/'
+};
+
+// DEFINE FUNCTIONS
+
+function loadTweetBombs() {
+  var NEWLINE_SEPARATOR = '\n';
+
+  // get HTML and DATA for tweets, that will be mixed to generate the list of links
+  // (jquery works with the same selectors as CSS)
+  var tweet_template = $('#tweet_button_template').html();
+  var tweets_data = $('#tweets_data').text()
+                                   .split(NEWLINE_SEPARATOR);
+
+  // loop through the tweets, add the data to the html template,
+  // and add the new element into the list
+  for (var i=0; i < tweets_data.length; i++) {
+    // get tweet text
+    var tweet = tweets_data[i].trim();
+
+    // skip empty lines
+    if (tweet.trim().length === 0) {
+      continue; // skip this 'for' loop cycle
+    }
+
+    var last_btn = buildButtonFor(tweet, tweet_template);
+  }
+
+  /* after creating the markup for the buttons, via jQuery,
+     initialize the HTML element that have the data attribute 'data-toggle',
+     to enable the popover behaviour
+  */
+  $(function () {
+    $('[data-toggle="popover"]').popover()
+  });
+
+}
+
+function buildButtonFor(text_to_send, template_html) {
+    // copied by the default value of the 'template' parameter (see https://getbootstrap.com/docs/4.1/components/tooltips/)
+    var base_tooltip_html = '<div class="popover" role="tooltip"><div class="arrow"></div><div class="popover-body"></div></div>';
+
+    return $(template_html)
+      .attr('title', text_to_send)      // set target title
+      // set bootstrap parameters
+      .attr('data-toggle', 'popover')           // mark element as popover, so Bootstrap sees it
+      .attr('data-html', true)                  // enable interpretation of html code
+      // provide the content, as tooltip
+      .attr('data-content', buildTooltipHtmlFor(text_to_send))
+      .attr('data-template', base_tooltip_html)
+      .appendTo('#tweet_list'); // add to tweet-list
+      // returns the created button element, in case is needed
+}
+
+function buildTooltipHtmlFor(plain_unencoded_text) {
+    var link_twitter = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(plain_unencoded_text);
+    var link_facebook = "https://www.facebook.com/sharer/sharer.php" +
+                            "?u="+ config.facebook_user +
+                            "&quote=" + encodeURIComponent(plain_unencoded_text);
+
+    // create new <p>aragraph displaying the bomb text, plus <a>nchors to link to the target social medias
+    var $content = $('<p class="bomb-text">').text(plain_unencoded_text);
+
+    var $tw_link = $('<a class="twitter-text">').attr({
+        href: link_twitter,
+        title: plain_unencoded_text,
+        target: '_blank'
+    }).text('Twitter');
+
+    var $fb_link = $('<a class="facebook-text">').attr({
+        href: link_facebook,
+        title: plain_unencoded_text,
+        target: '_blank'
+    }).text('Facebook');
+
+    // assemble the pieces (in order) and return the resulting content
+    return $('<div>')                   // create default tooltip structure
+            .append($content)           // append the elements inside tooltip-inner
+            .append($tw_link)
+            .append($fb_link)
+        .html();                        // return the generated HTML
+}
+
+
+// RUN SCRIPT
+
+window.onload = function() {
+  //call when everything has loaded
+  loadTweetBombs();
+};
+</script>
+
+</body>
+</html>
