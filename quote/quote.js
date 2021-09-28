@@ -73,10 +73,6 @@ $(function() {
     author: '#GiuLeManiDalReferendum',
     link: '#'
   }, {
-    quote: '@graziano_delrio le scriviamo tutti i giorni per avere anche solo una sua risposta.Attendiamo la calendarizzaZione sulla proposta di legalizzare la cannabis, ci sono 40k firme e circa 10 mln di cittadini interessati. O usa Twitter a senso unico per scrivere e mai per rispondere? https://pic.twitter.com/gKPwx8yM62',
-    author: '#GiuLeManiDalReferendum',
-    link: '#'    
-  }, {
     quote: 'Fumare erba potrebbe effettivamente renderti un autista più sicuro Una sorprendente ricerca, condotta dai professori D. Mark Anderson e Daniel Rees, dimostra che le morti per traffico sono diminuite negli stati in cui la #cannabis è stata legalizzata. https://iza.org/publications/dp/6112… https://pic.twitter.com/Ha6FSfpirX',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
