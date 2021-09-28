@@ -5,39 +5,39 @@ $(function() {
     author: '#GiuLeManiDalReferendum',
     link: '#'
   }, {
-	quote: '📢 La #resistenza al #proibizionismo continua: 50 anni di lotte per la legalizzazione della #cannabis, aborto, divorzio, diritti #lgbt+, eutanasia...Rivendichiamo un valore fondamentale del nostro vivere insieme: la libera scelta delle persone. FIRMA ORA: https://raccoltafirme.cloud/app/user.html?codice=CANNABIS',
+    quote: '📢 La #resistenza al #proibizionismo continua: 50 anni di lotte per la legalizzazione della #cannabis, aborto, divorzio, diritti #lgbt+, eutanasia...Rivendichiamo un valore fondamentale del nostro vivere insieme: la libera scelta delle persone. FIRMA ORA: https://raccoltafirme.cloud/app/user.html?codice=CANNABIS',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 #Legalizzare la #cannabis significa mettere fine agli affari delle mafie, significa riconoscere ai cittadini la libertà di consumare in modo sicuro e responsabile, di curarsi o di intraprendere un’attività economica nella piena legalità. #GiuLeManiDalReferendum #ReferendumCannabis',
+    quote: '📢 #Legalizzare la #cannabis significa mettere fine agli affari delle mafie, significa riconoscere ai cittadini la libertà di consumare in modo sicuro e responsabile, di curarsi o di intraprendere un’attività economica nella piena legalità. #GiuLeManiDalReferendum #ReferendumCannabis',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 La #cannabis può avere un ruolo nella ricostruzione del paese. Una risorsa per tutta la filiera industriale, per la nostra #economia, ma anche per i consumatori che devono avere la possibilità di fruirne liberamente senza essere perseguitati e perseguiti. #ReferendumCannabis',
+    quote: '📢 La #cannabis può avere un ruolo nella ricostruzione del paese. Una risorsa per tutta la filiera industriale, per la nostra #economia, ma anche per i consumatori che devono avere la possibilità di fruirne liberamente senza essere perseguitati e perseguiti. #ReferendumCannabis',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 L’insensato #proibizionismo deve finire! La #cannabis può, una volta liberata, svolgere un ruolo fondamentale per il futuro del nostro paese, sul piano economico, sul piano sociale e sul piano di contrasto alla criminalità organizzata. #GiuLeManiDalReferendum #ReferendumCannabis',
+    quote: '📢 L’insensato #proibizionismo deve finire! La #cannabis può, una volta liberata, svolgere un ruolo fondamentale per il futuro del nostro paese, sul piano economico, sul piano sociale e sul piano di contrasto alla criminalità organizzata. #GiuLeManiDalReferendum #ReferendumCannabis',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #ReferendumCannabis #LegalizeIt #Cannabis',
+    quote: '📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #ReferendumCannabis #LegalizeIt #Cannabis',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 Con il proibizionismo in #Italia un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! #ReferendumCannabis pic.twitter.com/AGx1pxiSHL',
+    quote: '📢 Con il proibizionismo in #Italia un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! #ReferendumCannabis pic.twitter.com/AGx1pxiSHL',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 Dicevano "la gente non gliene frega niente di politica". Scoprirono che la gente aveva solo bisogno di altra politica e di nuovi strumenti per partecipare. #ReferendumCannabis via @marcocappato',
+    quote: '📢 Dicevano "la gente non gliene frega niente di politica". Scoprirono che la gente aveva solo bisogno di altra politica e di nuovi strumenti per partecipare. #ReferendumCannabis via @marcocappato',
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-	quote: '📢 Referendum per la cannabis legale . Togliere soldi alle mafie e salvaguardare la salute di tutti. via @GassmanGassmann #ReferendumCannabis',
+    quote: '📢 Referendum per la cannabis legale . Togliere soldi alle mafie e salvaguardare la salute di tutti. via @GassmanGassmann #ReferendumCannabis',
     author: '#GiuLeManiDalReferendum',
     link: '#' 
   }, {
-	quote: '📢 E tu ancora non hai firmato? https://referendumcannabis.it #ReferendumCannabis via @LegaleMeglio',
+    quote: '📢 E tu ancora non hai firmato? https://referendumcannabis.it #ReferendumCannabis via @LegaleMeglio',
     author: '#GiuLeManiDalReferendum',
     link: '#'	
   }, {	  
@@ -97,7 +97,7 @@ $(function() {
     author: '#GiuLeManiDalReferendum',
     link: '#'    
   }, {
-    quote: 'Sfruttate al meglio i semi di Canapa Indiana e seminateli ovunque. by George Washington',
+    quote: '📢 Sfruttate al meglio i semi di Canapa Indiana e seminateli ovunque. by George Washington',
     author: '#GiuLeManiDalReferendum',
     link: '#'
   }, {
