@@ -8,16 +8,6 @@ body {
 	height:100%;
 }
 
-#header img {
-    max-height: 120vh;
-    max-width: 153vw;
-}
-@media all and (min-width: 550px) {
-    #header img {
-        min-height: 550px;
-    }
-}
-
 #countbox {
     width: 100%;
 }
