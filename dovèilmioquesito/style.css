@@ -8,8 +8,8 @@ body {
 }
 
 #header img {
-    max-height: 93vh;
-    max-width: 93vw;
+    max-height: 120vh;
+    max-width: 1533vw;
 }
 @media all and (min-width: 550px) {
     #header img {
