@@ -11,8 +11,11 @@ html, body {
 	transition: background-color 585ms ease;
 	font-family: 'Lato', 'Exo 2', sans-serif;
 }
+body {
+	margin-bottom:400px;
+}
 .logo {
-   max-width: 70%;
+   max-width: 100%;
    align-items: center;
    justify-content: center;
 }
