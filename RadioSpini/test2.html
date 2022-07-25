@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $.getJSON("https://zenoplay.zenomedia.com/api/zenofm/nowplaying/p2m7uyb1sxhvv",
+    function(data) {
+    var html = ''; // declare the variable that will be used to store the information
+    var parsedData = JSON.parse(data);
+
+    $.each(parsedData.myfunction, function(i, item) {
+      {
+        html += 'Song: ' + item.song.track + ', Artist: ' + item.song.artist + '';
+      } //
+    }); //
+    $('.nowplaying').append(html); // print the information to the document with a span class of 'nowplaying' and use the jQuery append method to insert the information.
+  }); // close JSON call
+}); // close document ready function
+</script>
+</head>
+<body>
+	<span class="nowplaying"></span>
+</body>
+</html>
