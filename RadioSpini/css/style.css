@@ -3,9 +3,9 @@
 @import url('bootstrap.min.css');
 @font-face {
     font-family: Brush King;
-    src: url("/fonts/brush-king.otf"), /* IE9 Compat Modes */
+    src: url("/fonts/brush-king.otf") format('opentype'),
     url('/fonts/brush-king.woff') format('woff'),
-    url('/fonts/brush-king.ttf') format('truetype'),
+    url('/fonts/brush-king.ttf') format('truetype');
 }
 
 html, body {
