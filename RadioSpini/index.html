@@ -124,9 +124,9 @@
                 dataType: "json",
                 success: function(data) {
                     var text = `${data.artist}`
-                    var arts = `${data.title}`
-                    $('.current-artist').text(data.title);
+                    var text = `${data.title}`
                     $('.current-song').text(data.title);
+                    $('.current-artist').text(data.artist);
                     console.log(data);
                     }
                 }); 
