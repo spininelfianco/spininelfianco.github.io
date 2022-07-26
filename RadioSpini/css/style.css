@@ -3,9 +3,9 @@
 @import url('bootstrap.min.css');
 @font-face {
     font-family: Tabuti;
-    src: url("/fonts/Tabuti.otf") format('opentype'),
-    url('/fonts/Tabuti.woff') format('woff'),
-    url('/fonts/Tabuti.ttf') format('truetype');
+    src: url("fonts/Tabuti.otf") format('opentype'),
+    url('fonts/Tabuti.woff') format('woff'),
+    url('fonts/Tabuti.ttf') format('truetype');
 }
 
 html, body {
