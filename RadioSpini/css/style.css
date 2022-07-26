@@ -3,9 +3,9 @@
 @import url('bootstrap.min.css');
 @font-face {
     font-family: Tabuti;
-    src: url("fonts/Tabuti.otf") format('opentype'),
-    url('fonts/Tabuti.woff') format('woff'),
-    url('fonts/Tabuti.ttf') format('truetype');
+    src: url("../fonts/Tabuti.otf") format('opentype'),
+    url('../fonts/Tabuti.woff') format('woff'),
+    url('../fonts/Tabuti.ttf') format('truetype');
 }
 
 html, body {
@@ -21,7 +21,6 @@ body {
 
 .spini-title {
     font-family: "Tabuti" !important;
-    font-size: medium;
     color: #ff0000;
     padding-bottom: 20px;
  }
