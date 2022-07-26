@@ -1,6 +1,12 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css?family=Share:400i,700i');
 @import url('bootstrap.min.css');
+@font-face {
+    font-family: Brush King;
+    src: url("/fonts/brush-king.otf"), /* IE9 Compat Modes */
+    url('/fonts/brush-king.woff') format('woff'),
+    url('/fonts/brush-king.ttf') format('truetype'),
+}
 
 html, body {
     height: 100%;
@@ -12,6 +18,12 @@ body {
     justify-content: center;
     overflow-y: visible;
 }
+
+.spini-title {
+    font-family: "Brush King" !important;
+    font-size: medium;
+    padding-bottom: 20px;
+ }
 
 .cover-site {
     min-width: 100%;
