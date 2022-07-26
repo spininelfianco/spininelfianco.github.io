@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Share:400i,700i');
 @import url('bootstrap.min.css');
 @font-face {
-    font-family: Brush King;
-    src: url("/fonts/brush-king.otf") format('opentype'),
-    url('/fonts/brush-king.woff') format('woff'),
-    url('/fonts/brush-king.ttf') format('truetype');
+    font-family: Tabuti;
+    src: url("/fonts/Tabuti.otf") format('opentype'),
+    url('/fonts/Tabuti.woff') format('woff'),
+    url('/fonts/Tabuti.ttf') format('truetype');
 }
 
 html, body {
@@ -20,7 +20,7 @@ body {
 }
 
 .spini-title {
-    font-family: "Brush King" !important;
+    font-family: "Tabuti" !important;
     font-size: medium;
     color: #ff0000;
     padding-bottom: 20px;
