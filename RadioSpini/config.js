@@ -11,7 +11,7 @@
 var settings = {
     'radio_name': 'Radio SpiniNelFianco',
 
-    'url_streaming': 'https://stream-45.zeno.fm/rcu55zb1sxhvv',
+    'url_streaming': 'http://stream.zeno.fm/rcu55zb1sxhvv',
 
     'streaming_type': 'icecast',
 
