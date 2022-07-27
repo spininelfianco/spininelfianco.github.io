@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Share:400i,700i');
 @import url('bootstrap.min.css');
 @font-face {
-    font-family: Tabuti;
-    src: url("../fonts/Tabuti.otf") format('opentype'),
-    url('../fonts/Tabuti.woff') format('woff'),
-    url('../fonts/Tabuti.ttf') format('truetype');
+    font-family: PotLand;
+    src: url("../fonts/PotLand.otf") format('opentype'),
+    url('../fonts/PotLand.woff') format('woff'),
+    url('../fonts/PotLand.ttf') format('truetype');
 }
 
 html, body {
@@ -20,7 +20,7 @@ body {
 }
 
 .spini-title {
-    font-family: "Tabuti" !important;
+    font-family: "PotLand" !important;
     color: #ff0000;
     padding-bottom: 20px;
  }
