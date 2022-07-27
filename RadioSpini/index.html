@@ -111,16 +111,9 @@
         </div>
     </div>
     <script>
-        jQuery.ajaxPrefilter(function(options) {
-            if (options.crossDomain && jQuery.support.cors) {
-                options.url = 'https://api.codetabs.com/v1/proxy?quest=' + options.url;
-            }
-        });
-    </script>
-    <script>
         setInterval(function() {
             $.ajax({
-                url: "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/p2m7uyb1sxhvv",
+                url: "https://api.codetabs.com/v1/proxy?quest=https://zenoplay.zenomedia.com/api/zenofm/nowplaying/p2m7uyb1sxhvv",
                 dataType: "json",
                 success: function(data) {
                     var text = `${data.artist}`
