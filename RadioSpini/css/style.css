@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    display: flex;
+    /* display: flex; */
     flex-flow: row;
     justify-content: center;
     overflow-y: visible;
@@ -24,7 +24,99 @@ body {
     color: #ff0000;
     padding-bottom: 20px;
  }
+.smoke {
+    position:absolute;
+    top:50%;
+    lefT:50%;
+    transform:translate(-50%,-50%);
+}
 
+.smoke ul {
+    margin:0;
+    padding:0;
+    display:flex;
+    
+}
+
+.smoke ul li {
+    list-style:none;
+    font-weight:bold;
+    letter-spacing:10px;
+    filter:blur(1px);
+    color:#fff;
+    font-size:2em;
+    display: inline-block;
+}
+
+
+.smoke ul:hover li {
+    animation: smoke 2s linear forwards;
+}
+
+
+@keyframes smoke {
+    0% {
+        transform: rotate(0deg) translateY(0px);
+        opacity: 1;
+        filter:blur(1px);
+    }
+    100% {
+      transform: rotate(45deg) translateY(-200px);
+        opacity: 0;
+        filter:blur(20px);
+    }
+}
+
+.smoke ul li:nth-child(1){
+    animation-delay:0s
+}
+.smoke ul li:nth-child(2){
+    animation-delay:.4s
+}
+.smoke ul li:nth-child(3){
+    animation-delay:.8s
+}
+.smoke ul li:nth-child(4){
+    animation-delay:1.2s
+}
+.smoke ul li:nth-child(5){
+    animation-delay:1.6s
+}
+
+#twitter,
+#github {
+  font-size: 3em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#twitter {
+  animation-delay: 0.3s;
+}
+#github {
+  animation-delay: 0.1s;
+}
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+.spacing {
+    padding: 40px;
+}
 .cover-site {
     min-width: 100%;
     min-height: 100%;
