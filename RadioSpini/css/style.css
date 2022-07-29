@@ -18,12 +18,6 @@ body {
     justify-content: center;
     overflow-y: visible;
 }
-
-.spini-title {
-    font-family: "PotLand" !important;
-    color: #ff0000;
-    padding-bottom: 20px;
- }
 .smoke {
     position:absolute;
     top:50%;
@@ -151,11 +145,11 @@ body {
 
 .web-player {
     height: 100%;
-    color: #fff;
+    color: #97ff8a;
     padding: 5px;
+    padding-top: 2em;
     position: relative;
     z-index: 3;
-    margin-top: 25px;
 }
 
 .cover-album {
@@ -172,7 +166,7 @@ body {
 .watermark {
     width: 89px;
     height: 35px;
-    background: url(../img/logo.png) no-repeat;
+    background: url('../img/logo.png') no-repeat;
     background-size: auto 35px;
     opacity: 0.5;
     position: relative;
