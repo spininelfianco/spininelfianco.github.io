@@ -1,5 +1,5 @@
 var countDownDate = new Date(
-  "Sept 8, 2020 00:00:00"
+  "Sept 8, 2022 00:00:00"
 ).getTime(); /* event started date and time  */
 var last = "00:00:00:00";
 
