@@ -24,7 +24,7 @@ body {
 #time{
     display: flex;
     color: rgb(155, 143, 143);
-    font-size: 5vh;
+    font-size: 4vh;
     width:85vw;
     justify-content: space-around;
     
