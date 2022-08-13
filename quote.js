@@ -113,7 +113,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@meb @MolinariRik @Fornaro62 @crippa5stelle @graziano_delrio @AndreaOstellari @matteorenzi @vitocrimi @ale_dibattista @nzingaretti @Am_Parente 📢 CHIEDIAMO la discussione in parlamento del Manifesto Collettivo x la #cannabis',
+    quote: '#CannabisLegale è una questione URGENTE e PRIORITARIA di SALUTE PUBBLICA, oltre che di giustizia, economia, legalità. #SpiniNelFianco #Weedmob #WeedLovers #25settembreVotoLegalizzazione @pdnetwork https://twitter.com/dolcevita_mag/status/1558446123924144130',
     author: '#spininelfianco',
     link: '#'
   }, {
