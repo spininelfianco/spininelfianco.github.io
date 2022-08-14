@@ -93,7 +93,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Sveglia! L’alcol È una DROGA LEGALE che dovrebbe essere in teoria severamente CONTROLLATA. @ISSalute_it @MinisteroSalute @DadoneFabiana @pcm_giovani_scu @AntidrogaGOV @MIsocialTW @Cartabellotta @WHO @giunbia @GIMBE @FNOMCeO https://pic.twitter.com/0a6t16nSeu https://pic.twitter.com/0a6t16nSeu ',
+    quote: '📢 Sveglia! L’alcol È una DROGA LEGALE che dovrebbe essere in teoria severamente CONTROLLATA. @ISSalute_it @MinisteroSalute @DadoneFabiana @pcm_giovani_scu @AntidrogaGOV @MIsocialTW @Cartabellotta @WHO @giunbia @GIMBE @FNOMCeO https://pic.twitter.com/0a6t16nSeu ',
     author: '#spininelfianco',
     link: 'https://pbs.twimg.com/media/EeipP2IU0AATezX?format=jpg'
   }, {
