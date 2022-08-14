@@ -1,7 +1,7 @@
 $(function() {
 
   var quotes = [{
-    quote: '📢 Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! pic.twitter.com/AGx1pxiSHL',
+    quote: '📢 Il proibizionismo in #Italia ha portato un azienda in particolare ha aumentato il suo fatturato e il suo potere: la #mafia! #25settembreVotoLegalizzazione pic.twitter.com/AGx1pxiSHL',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -9,23 +9,23 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Un solo punto programmatico legalizzare per ripartire. 🥦 #LegalizeIt #MeglioLegale #Cannabis',
+    quote: '📢 Un solo punto programmatico legalizzare per ripartire. 🥦 #WeedMob #25settembreVotoLegalizzazione #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 "Il #proibizionismo genera domanda di #mafia per la gestione del mercato" #Italia #megliolegale #melemarce #spininelfianco https://pic.twitter.com/1dtHgGRX7r',
+    quote: '📢 "Il #proibizionismo genera domanda di #mafia per la gestione del mercato" #Italia #megliolegale #melemarce #25settembreVotoLegalizzazione https://pic.twitter.com/1dtHgGRX7r',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 L’insensato #proibizionismo deve finire! La #cannabis può, una volta liberata, svolgere un ruolo fondamentale per il futuro del nostro paese, sul piano economico, sul piano sociale e sul piano di contrasto alla criminalità organizzata. #spininelfianco https://pic.twitter.com/TRVi6aW5uQ',
+    quote: '📢 L’insensato #proibizionismo deve finire! La #cannabis può, una volta liberata, svolgere un ruolo fondamentale per il futuro del nostro paese, sul piano economico, sul piano sociale e sul piano di contrasto alla criminalità organizzata. https://pic.twitter.com/TRVi6aW5uQ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 "L’ignoranza uccide!" Soluzione: + Fare informazione per raggiungere più persone possibili e raccontare loro che la #cannabis, che è stata trasformata in un problema, può tornare ad essere una risorsa, per tutti. #spininelfianco https://pic.twitter.com/bkbx0vzPWs',
+    quote: '📢 "L’ignoranza uccide!" Soluzione: + Fare informazione per raggiungere più persone possibili e raccontare loro che la #cannabis, che è stata trasformata in un problema, può tornare ad essere una risorsa, per tutti. #weedmob https://pic.twitter.com/bkbx0vzPWs',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 "Per anni il proibizionismo della #cannabis ha gravemente danneggiato la salute pubblica, violato i diritti umani, sovraccaricato il sistema di giustizia penale e sprecato enormi risorse, per una lotta insensata ad una pianta dai mille benefici. #Legalizzatela! #spininelfianco https://pic.twitter.com/ifQUNtMKj5',
+    quote: '📢 "Per anni il proibizionismo della #cannabis ha gravemente danneggiato la salute pubblica, violato i diritti umani, sovraccaricato il sistema di giustizia penale e sprecato enormi risorse, per una lotta insensata ad una pianta dai mille benefici. #WeedMob https://pic.twitter.com/ifQUNtMKj5',
     author: '#spininelfianco',
     link: '#'    
   }, {
@@ -41,23 +41,23 @@ $(function() {
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'È tardi. Eravate stati avvisati che un grosso bacino di voti che rischiavano di andare dispersi. Sarebbero bastate poche parole in tempi non sospetti.Ora i 6mln di consumatori, più del 10% dei votanti, voteranno altro. Ve la siete voluta. #legalizeit',
+    quote: '📢 È tardi. Eravate stati avvisati che un grosso bacino di voti che rischiavano di andare dispersi. Sarebbero bastate poche parole in tempi non sospetti.Ora i 6mln di consumatori, più del 10% dei votanti, voteranno altro. Ve la siete voluta. #legalizeit',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: '@matteosalvinimi quello della “Droga zero”?!? 😂 #SpiniNelFianco #weedmob #25settembrevotoLegalizzazione #alcol #DrogheLegali #saute https://pic.twitter.com/KcZQ3AS17s',
+    quote: '📢 @matteosalvinimi quello della “Droga zero”?!? 😂 #SpiniNelFianco #weedmob #25settembrevotoLegalizzazione #alcol #DrogheLegali #saute https://pic.twitter.com/KcZQ3AS17s',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'Quando la #cannabis è usata in modo responsabile, può aiutare le persone a rilassarsi, ad accrescere la loro creatività e migliorare la qualità della loro vita. Criminalizzare e sottoporre i consumatori a dure sanzioni penali e civili è un’ingiustizia terribile. #spininelficanco https://pic.twitter.com/0ODdm2n2TS',
+    quote: '📢 Quando la #cannabis è usata in modo responsabile, può aiutare le persone a rilassarsi, ad accrescere la loro creatività e migliorare la qualità della loro vita. Criminalizzare e sottoporre i consumatori a dure sanzioni penali e civili è un’ingiustizia terribile. #spininelficanco https://pic.twitter.com/0ODdm2n2TS',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'La regolamentazione dell’#alcol ha consentito la tutela della salute pubblica, e la possibilità di curarne la dipendenza. La #cannabis non da dipendenza, perché lo stato si rifiuta di regolamentarne il consumo? #spininelfianco https://pic.twitter.com/JR2NNDO0aO',
+    quote: '📢 La regolamentazione dell’#alcol ha consentito la tutela della salute pubblica, e la possibilità di curarne la dipendenza. La #cannabis non da dipendenza, perché lo stato si rifiuta di regolamentarne il consumo? #weedmob https://pic.twitter.com/JR2NNDO0aO',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'Legalizzazione #Cannabis : impatto su salute, sicurezza, economia. https://norml.org/marijuana/fact-sheets/marijuana-regulation-impact-on-health-safety-economy/… #spininelfianco #LegalizeIt',
+    quote: '📢 Legalizzazione #Cannabis : impatto su salute, sicurezza, economia. https://norml.org/marijuana/fact-sheets/marijuana-regulation-impact-on-health-safety-economy/… #weedmob #LegalizeIt',
     author: '#spininelfianco',
     link: '#'    
   }, {
@@ -65,7 +65,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'Sfruttate al meglio i semi di Canapa Indiana e seminateli ovunque. by George Washington',
+    quote: '📢 Sfruttate al meglio i semi di Canapa Indiana e seminateli ovunque. by George Washington',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -77,19 +77,19 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '#Cannabis: è il materiale del futuro, perfetta per ri-fertilizzare i terreni, fantastica materia prima per realizzare bioplastiche, mattoni, abiti resistenti e sostenibili. Nonostante tutto la politica si rifiuta di vederla come una reale risorsa pic.twitter.com/eAonMtBkPE',
+    quote: '📢 #Cannabis: è il materiale del futuro, perfetta per ri-fertilizzare i terreni, fantastica materia prima per realizzare bioplastiche, mattoni, abiti resistenti e sostenibili. Nonostante tutto la politica si rifiuta di vederla come una reale risorsa pic.twitter.com/eAonMtBkPE',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #LegalizeIt #Cannabis',
+    quote: '📢 Si chiama civiltà, si chiama legalità, si chiama lavoro, si chiama sviluppo economico #25settembreVotoLegalizzazione #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: 'L’illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l’intuizione, la sensibilità e l’amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
+    quote: '📢 L’illegalità della cannabis è oltraggiosa, un ostacolo al pieno utilizzo di una droga che aiuta a produrre la serenità e l’intuizione, la sensibilità e l’amicizia così disperatamente necessarie in questo mondo sempre più folle e pericoloso". by Carl Sagan',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '#Legalizzare significa, tutelare i consumatori e i produttori, oltre che l’#ambiente. Un arma per combattere la #deforestazione, l’#inquinamento, ridurre gli effetti devastanti dell’uomo sul #clima e, per creare un modello sostenibile di sviluppo economico.',
+    quote: '📢 #Legalizzare significa, tutelare i consumatori e i produttori, oltre che l’#ambiente. Un arma per combattere la #deforestazione, l’#inquinamento, ridurre gli effetti devastanti dell’uomo sul #clima e, per creare un modello sostenibile di sviluppo economico.',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -101,7 +101,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '«Tira un aria oscurantista e un po’ bigotta» by @vascorossi #Cannabis #LegalizeIt',
+    quote: '📢 «Tira un aria oscurantista e un po’ bigotta» by @vascorossi #Cannabis #25settembreVotoLegalizzazione',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -113,7 +113,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '#CannabisLegale è una questione URGENTE e PRIORITARIA di SALUTE PUBBLICA, oltre che di giustizia, economia, legalità. #SpiniNelFianco #Weedmob #WeedLovers #25settembreVotoLegalizzazione @pdnetwork https://twitter.com/dolcevita_mag/status/1558446123924144130',
+    quote: '📢 #CannabisLegale è una questione URGENTE e PRIORITARIA di SALUTE PUBBLICA, oltre che di giustizia, economia, legalità. #SpiniNelFianco #Weedmob #WeedLovers #25settembreVotoLegalizzazione @pdnetwork https://twitter.com/dolcevita_mag/status/1558446123924144130',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -125,15 +125,15 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '“Tra una canna e una sigaretta meglio una canna” by Umberto Veronesi #Cannabis #LegalizeIt',
+    quote: '📢 “Tra una canna e una sigaretta meglio una canna” by Umberto Veronesi #Cannabis #25settembreVotoLegalizzazione #LegalizeIt',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '"Se fossero davvero seri riguardo all’economia, ci sarebbe una discussione sensata sulla legalizzazione" by Jack Nicolson #Cannabis #legalizeIt',
+    quote: '📢 "Se fossero davvero seri riguardo all’economia, ci sarebbe una discussione sensata sulla legalizzazione" by Jack Nicolson #Cannabis #25settembreVotoLegalizzazione',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '"La marijuana? La mangio, la bevo, la fumo. È l’unica terapia del dolore che funziona" by @morgan_freeman #Cannabis',
+    quote: '📢 "La marijuana? La mangio, la bevo, la fumo. È l’unica terapia del dolore che funziona" by @morgan_freeman #25settembreVotoLegalizzazione #Cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -141,35 +141,35 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Più posti di Lavoro, più certezze per i consumatori!! #weedmob ',
+    quote: '📢 @pdnetwork @Mov5Stelle 📢 Più posti di Lavoro, più certezze per i consumatori!! #25settembreVotoLegalizzazione #weedmob ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 La nostra libertà è un diritto che dovete garantirci! #Cannabislegale ',
+    quote: '📢 @pdnetwork @Mov5Stelle 📢 La nostra libertà è un diritto che dovete garantirci! #25settembreVotoLegalizzazione #Cannabislegale ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork 📢 Preferite l’illegalità per la vostra moralità? #cannabis',
+    quote: '📢 @pdnetwork 📢 Preferite l’illegalità per la vostra moralità? #25settembreVotoLegalizzazione #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #weedmob #liberalizzazione #cannabis',
+    quote: '📢 @pdnetwork @Mov5Stelle 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #weedmob #25settembreVotoLegalizzazione #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle 📢 Seminiamo pace sotto la tempesta! #cannabis',
+    quote: '📢 @pdnetwork @Mov5Stelle 📢 Seminiamo pace sotto la tempesta! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle 📢 Vogliamo legalità chiediamo Giustizia! #cannabis',
+    quote: '📢 Non è vero che la destra non vuole che tu utilizzi #cannabis, vuole solo che la compri dalla mafia. #25settembreVotoLegalizzazione #cannabisLegale',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle 📢 1 Pianta 1000 Vantaggi! #cannabis',
+    quote: '@pdnetwork @Mov5Stelle 📢 1 Pianta 1000 Vantaggi! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Facciamo RIFIORIRE l’Italia! #cannabis',
+    quote: 'Coffee Shop per turisti lungo una strada del centro a Bangkok. I governanti thai solo 2 mesi fa sostenevano  che l’uso ricreativo non sarebbe stato permesso. https://tinyurl.com/mts6br5h #sapevatelo #cannabisworldwide https://pic.twitter.com/wqqXXr3jpc',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -177,15 +177,15 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #cannabis',
+    quote: '@pdnetwork @Mov5Stelle 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #25settembreVotoLegalizzazione #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Liberi di coltivare per uso personale. #cannabis',
+    quote: '📢 Smettetela di ascoltare le finte promesse dei politici e venite ad ascoltare l’unica vera radio antipro! #radioSpini #cannabisLegale https://spininelfianco.github.io/RadioSpini/index.html https://pic.twitter.com/C9jcMGSJRm',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Stop ai regali alle Narcomafie. #cannabis',
+    quote: 'Forse accettare l’esistenza dell’uso e curare e prevenire l’abuso, fuori dal sistema penale, per tutte le droghe, porterebbe gran beneficio a tutta la società. Senza stigma. https://twitter.com/wudzee0/status/1556602247798263808',
     author: '#spininelfianco',
     link: '#'    
   }];
