@@ -5,7 +5,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 La #resistenza al #proibizionismo continua: 50 anni di lotte per la legalizzazione della #cannabis, aborto, divorzio, diritti #lgbt+, staminali, eutanasia...Rivendichiamo un valore fondamentale del nostro vivere insieme: la libera scelta delle persone. pic.twitter.com/qwm8pfSEtj',
+    quote: '📢 La #resistenza al #proibizionismo continua: 60 anni di lotte per la legalizzazione della #cannabis, aborto, divorzio, diritti #lgbt+, staminali, eutanasia...Rivendichiamo un valore fondamentale del nostro vivere insieme: la libera scelta delle persone. pic.twitter.com/qwm8pfSEtj',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -29,23 +29,23 @@ $(function() {
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: '“Sarà la cannabis a salvare Taranto dal disastro ambientale dell’Ilva #curioso” by @alanfriedmanit',
+    quote: '📢 Da che parte stai? È ora di scegliere! @EnricoLetta #SpiniNelFianco https://pic.twitter.com/js9TFJNLIM',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '#THC effetti terapeutici. #spininelfianco #cannabis #manifestocollettivo #legalizeIt https://pic.twitter.com/6OL0otO6Il',
+    quote: '📢 @pdnetwork @EnricoLetta quante piante potremo coltivare? #25settembrevotoLegalizzazione #weedmob #CannabisLegale #salute #autocoltivazione #Cannabis https://pic.twitter.com/5k2tUrg55V',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@graziano_delrio le scriviamo tutti i giorni per avere anche solo una sua risposta.Attendiamo la calendarizzaZione sulla proposta di legalizzare la cannabis, ci sono 40k firme e circa 10 mln di cittadini interessati. O usa Twitter a senso unico per scrivere e mai per rispondere? https://pic.twitter.com/gKPwx8yM62',
+    quote: '📢 Antiproibizionisti perché da secoli sono note le potenzialità della #Cannabis, che può essere utilizzata in campo sanitario, manifatturiero, energetico e ambientale come vera e propria alternativa al sistema produttivo fondato sul petrolio. https://spininelfianco.github.io/RadioSpini',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'Fumare erba potrebbe effettivamente renderti un autista più sicuro Una sorprendente ricerca, condotta dai professori D. Mark Anderson e Daniel Rees, dimostra che le morti per traffico sono diminuite negli stati in cui la #cannabis è stata legalizzata. https://iza.org/publications/dp/6112… https://pic.twitter.com/Ha6FSfpirX',
+    quote: 'È tardi. Eravate stati avvisati che un grosso bacino di voti che rischiavano di andare dispersi. Sarebbero bastate poche parole in tempi non sospetti.Ora i 6mln di consumatori, più del 10% dei votanti, voteranno altro. Ve la siete voluta. #legalizeit',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'Piantiamola! @GiuseppeConteIT @pdnetwork @Mov5Stelle etc... Facciamo finalmente qualcosa di buono per il nostro pianeta. #cannabis #ambiente #legalizzatela #spininelfianco https://pic.twitter.com/X2nyps9XJW',
+    quote: '@matteosalvinimi quello della “Droga zero”?!? 😂 #SpiniNelFianco #weedmob #25settembrevotoLegalizzazione #alcol #DrogheLegali #saute https://pic.twitter.com/KcZQ3AS17s',
     author: '#spininelfianco',
     link: '#'    
   }, {
@@ -61,7 +61,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: 'Campagna informativa a favore dell’autoproduzione di #Cannabis per uso personale by @Italia_Freeweed #manifestocollettivo #spininelfianco https://pic.twitter.com/iKii9CLeZJ',
+    quote: '📢 #CannabisLegale è una questione URGENTE e PRIORITARIA di SALUTE PUBBLICA, oltre che di giustizia, economia, legalità. #Weedmob #WeedLovers #25settembreVotoLegalizzazione @pdnetwork https://twitter.com/dolcevita_mag/status/1558446123924144130',
     author: '#spininelfianco',
     link: '#'    
   }, {
@@ -73,7 +73,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Salvini “Chiuderò uno a uno tutti i negozi di #cannabis legale”. Da venditore di fumo, non tollera la concorrenza',
+    quote: '📢 Interessante documento della #AIPDP sia sullo scopo della disciplina sugli stupefacenti che sulle pene. Manca la consapevolezza che sia il caffè che li ha sostenuti che l’alcol che li distenderà sono stupefacenti, come coca ed eroina. https://aipdp.it/allegato_prodotti/66_VIII_Gruppo_Sintesi.pdf https://pic.twitter.com/ZCkdi2ePiy',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -93,11 +93,11 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '“You smoke a joint, you put on some music, you listen to it and you come up with some good ideas…I don’t need pot to write, but it’s kind of cool.” by Quentin Tarantino #cannabis #LegalizeIt',
+    quote: '📢 Sveglia! L’alcol È una DROGA LEGALE che dovrebbe essere in teoria severamente CONTROLLATA. @ISSalute_it @MinisteroSalute @DadoneFabiana @pcm_giovani_scu @AntidrogaGOV @MIsocialTW @Cartabellotta @WHO @giunbia @GIMBE @FNOMCeO https://pic.twitter.com/0a6t16nSeu https://pic.twitter.com/0a6t16nSeu',
     author: '#spininelfianco',
     link: 'https://pbs.twimg.com/media/EeipP2IU0AATezX?format=jpg'
   }, {
-    quote: 'Le droghe sono tutte uguali. Ecco perché mio figlio, fra #cannabis e cocaina, ha scelto la seconda. Gli piaceva di più come era incartata. L’unica differenza era la confezione. Dice.',
+    quote: '📢 @pdnetwork @EnricoLetta coltivazione domestica di #cannabis nel programma?? Spiace ma sembra il solito specchietto per le allodole. Finirà come sempre, che la cannabis non sarà una priorità e puttanate del genere. #TenzoSaggezza',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -109,7 +109,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Ma, capite il ruolo che potrebbe avere a livello economico, ambientale e medico? @GiuseppeConteIT @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini @ItaliaViva etc.. pic.twitter.com/tdYgBD8j0o',
+    quote: '📢 Ma, capite il ruolo che potrebbe avere a livello economico, ambientale e medico? @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini @ItaliaViva etc.. pic.twitter.com/tdYgBD8j0o',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -117,11 +117,11 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 Legalizzare la #cannabis, oggi è soltanto una scelta di buon senso. #LegalizeIt #Cannabis @GiuseppeConteIT @pdnetwork @Mov5Stelle',
+    quote: '📢 #FacciamoRete #CannabisLegale #SpiniNelFiancoSe #antimafia è per LEGALIZZARE la #marijuana (vale a dire la #cannabis con #THC) La #mafia è FAVOREVOLE al #proibizionismo Di conseguenza CHIEDO:i politici #proibizionisti DA CHE PARTE STANNO? https://pic.twitter.com/DKuDN5pN9x',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '“Per le ragazze è un efficace aiuto per i dolori mestruali, per le donne della mia età è un antidolorifico unico e naturale” by @WhoopiGoldberg #Cannabis #LegalizeIt',
+    quote: '📢 Le carceri sono luoghi di tortura ove ~28% degli ingressi sono per l’art 73 della 309/90, principalmente per possesso/coltivazione/cessione di Cannabis. Ho detto tutto. @CorteCost @AntigoneOnlus @SteveTransform #weedmob https://twitter.com/fairtrials/status/1558024690941235201',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -137,55 +137,55 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@meb @crippa5stelle @graziano_delrio 📢 Discutiamo la proposta di legge #s1498 #manifestocollettivo #cannabis #legalizeIt',
+    quote: '📢 Ogni anno l’uso di arachidi fa più morti di quello della #cannabis. Vietiamo le arachidi e legalizziamo la #cannabis https://twitter.com/meriadocco/status/1557831615178571777',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Più posti di Lavoro, più certezze per i consumatori!! #manifestocollettivo #liberalizzazione #S1498 #FinoAllaLibertà',
+    quote: '@pdnetwork @Mov5Stelle 📢 Più posti di Lavoro, più certezze per i consumatori!! #weedmob ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 La nostra libertà è un diritto che dovete garantirci! #liberalizzazione  #FinoAllaLibertà  #cannabis #S1498',
+    quote: '@pdnetwork @Mov5Stelle 📢 La nostra libertà è un diritto che dovete garantirci! #Cannabislegale ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Preferite l’illegalità per la vostra moralità? #s1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@pdnetwork 📢 Preferite l’illegalità per la vostra moralità? #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@pdnetwork @Mov5Stelle 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #weedmob #liberalizzazione #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Seminiamo pace sotto la tempesta! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle 📢 Seminiamo pace sotto la tempesta! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Vogliamo legalità chiediamo Giustizia! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle 📢 Vogliamo legalità chiediamo Giustizia! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 1 Pianta 1000 Vantaggi! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle 📢 1 Pianta 1000 Vantaggi! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Facciamo RIFIORIRE l’Italia! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@pdnetwork @Mov5Stelle 📢 Facciamo RIFIORIRE l’Italia! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Il mercato illegale è malsano e ci fa male! #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@pdnetwork 📢 Il mercato illegale è malsano e ci fa male! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #cannabis #manifestocollettivo',
+    quote: '@pdnetwork @Mov5Stelle 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #cannabis',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Liberi di coltivare per uso personale. #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@pdnetwork @Mov5Stelle 📢 Liberi di coltivare per uso personale. #cannabis',
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: '@GiuseppeConteIT @pdnetwork @Mov5Stelle @meb @crippa5stelle @Fornaro62 @graziano_delrio 📢 Stop ai regali alle Narcomafie. #S1498 #liberalizzazione #cannabis #manifestocollettivo',
+    quote: '@pdnetwork @Mov5Stelle 📢 Stop ai regali alle Narcomafie. #cannabis',
     author: '#spininelfianco',
     link: '#'    
   }];
