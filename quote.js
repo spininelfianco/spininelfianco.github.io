@@ -141,23 +141,23 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork @Mov5Stelle 📢 Più posti di Lavoro, più certezze per i consumatori!! #25settembreVotoLegalizzazione #weedmob ',
+    quote: '📢 @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini Più posti di Lavoro, più certezze per i consumatori!! #25settembreVotoLegalizzazione #weedmob ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork @Mov5Stelle 📢 La nostra libertà è un diritto che dovete garantirci! #25settembreVotoLegalizzazione #Cannabislegale ',
+    quote: '📢 @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini La nostra libertà è un diritto che dovete garantirci! #25settembreVotoLegalizzazione #Cannabislegale ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork 📢 Preferite l’illegalità per la vostra moralità? #25settembreVotoLegalizzazione #cannabis ',
+    quote: '📢 @pdnetwork @FratellidItalia @LegaSalvini 📢 Preferite l’illegalità per la vostra moralità? #25settembreVotoLegalizzazione #cannabis ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork @Mov5Stelle 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #weedmob #25settembreVotoLegalizzazione #cannabis ',
+    quote: '📢 @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini 📢 Siamo 8 milioni di cittadini onesti e ci fate la guerra! #weedmob #25settembreVotoLegalizzazione #cannabis ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork @Mov5Stelle 📢 Seminiamo pace sotto la tempesta! #cannabis ',
+    quote: '📢 @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini 📢 Seminiamo pace sotto la tempesta! #cannabis ',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -165,7 +165,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 1 Pianta 1000 Vantaggi! #25settembreVotoLegalizzazione #cannabis ',
+    quote: '@pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini 📢 1 Pianta 1000 Vantaggi! #25settembreVotoLegalizzazione #cannabis ',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -173,11 +173,11 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork 📢 Il mercato illegale è malsano e ci fa male! #25settembreVotoLegalizzazione #cannabis ',
+    quote: '@pdnetwork @FratellidItalia @LegaSalvini 📢 Il mercato illegale è malsano e ci fa male! #25settembreVotoLegalizzazione #cannabis ',
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '@pdnetwork @Mov5Stelle 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #25settembreVotoLegalizzazione #cannabis ',
+    quote: '@pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini 📢 Milioni di consumatori ignorati: tribunali intasati e milioni buttati! #25settembreVotoLegalizzazione #cannabis ',
     author: '#spininelfianco',
     link: '#'
   }, {
