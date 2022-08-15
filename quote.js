@@ -101,7 +101,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 «Tira un aria oscurantista e un po’ bigotta» by @vascorossi #Cannabis #25settembreVotoLegalizzazione ',
+    quote: '📢 Ecco una mappa dei Paesi (in rosso) in cui si sono verificati decessi per #cannabis negli ultimi 2000 anni. #spiniclassics https://pic.twitter.com/zFhUQ6FAQV ',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -125,7 +125,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 “Tra una canna e una sigaretta meglio una canna” by Umberto Veronesi #Cannabis #25settembreVotoLegalizzazione #LegalizeIt ',
+    quote: '📢 Liberté. Légalité. Spinellité. #cannabis #SpiniNelFianco ',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -145,7 +145,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini La nostra libertà è un diritto che dovete garantirci! #25settembreVotoLegalizzazione #Cannabislegale ',
+    quote: '📢 Se vostro figlio decidesse di provare una canna, dove preferireste che vada ad acquistarla? #CannabisLegale #Proibizionismo #SpiniNelFianco https://pic.twitter.com/TCEJR0x5pu ',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -157,7 +157,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'
   }, {
-    quote: '📢 @pdnetwork @Mov5Stelle @FratellidItalia @LegaSalvini 📢 Seminiamo pace sotto la tempesta! #cannabis ',
+    quote: '📢 Consentire il consumo di #cannabis solo a scopo terapeutico è come consentire il #sesso solo a scopo riproduttivo. #spininelfianco #spiniclassics https://pic.twitter.com/kD3PAMdPI0 ',
     author: '#spininelfianco',
     link: '#'
   }, {
