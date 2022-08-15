@@ -29,7 +29,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: '📢 Da che parte stai? È ora di scegliere! @EnricoLetta #SpiniNelFianco https://pic.twitter.com/js9TFJNLIM ',
+    quote: '📢 Da che parte stai? È ora di scegliere! @EnricoLetta #Cannabis https://pic.twitter.com/js9TFJNLIM ',
     author: '#spininelfianco',
     link: '#'
   }, {
@@ -57,7 +57,7 @@ $(function() {
     author: '#spininelfianco',
     link: '#'    
   }, {
-    quote: '📢 Legalizzazione #Cannabis : impatto su salute, sicurezza, economia. https://norml.org/marijuana/fact-sheets/marijuana-regulation-impact-on-health-safety-economy/… #weedmob #LegalizeIt ',
+    quote: '📢 Legalizzazione #Cannabis : impatto su salute, sicurezza, economia. https://norml.org/marijuana/fact-sheets/marijuana-regulation-impact-on-health-safety-economy/… #weedmob #CannabisLegale ',
     author: '#spininelfianco',
     link: '#'    
   }, {
