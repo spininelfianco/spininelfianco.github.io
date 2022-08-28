@@ -1,0 +1,18 @@
+{
+  "name": "radiospini-web",
+  "version": "1.0.0",
+  "description": "#RadioSpini #SpiniNelFianco",
+  "private": true,
+  "scripts": {
+    "start": "http-server --cors --path radiospini ."
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/weedmob",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weedmob/radiospini"
+  },
+  "devDependencies": {
+    "http-server-subpath": "^0.10.1"
+  }
+}

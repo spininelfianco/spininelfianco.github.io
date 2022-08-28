@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RadioSpini</title>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Radio" />
+    <meta name="keywords" content="blog,radio,live,playlist,lifestyle" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Progressive Web App -->
+    <meta name="theme-color" content="white" />
+    <link rel="manifest" href="./manifest.json" />
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" sizes="192x192" href="./images/icons/icon-192x192.png" />
+    <link rel="icon" sizes="512x512" href="./images/icons/icon-512x512.png" />
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="A zUIx website" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="./images/icons/icon-192x192.png"
+    />
+    <!--
+         <link rel="mask-icon" href="./images/icons/desktop/safari-pinned-tab.svg" color="#5bbad5">
+         -->
+    <!-- Tile color for Windows -->
+    <meta
+      name="msapplication-TileImage"
+      content="./images/icons/icon-192x192.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <!-- Place favicon.ico in the root directory -->
+    <!--
+         <link rel="icon" type="image/png" sizes="32x32" href="./images/icons/desktop/favicon-32x32.png">
+         <link rel="icon" type="image/png" sizes="16x16" href="./images/icons/desktop/favicon-16x16.png">
+    -->
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+         <link rel="canonical" href="https://www.example.com/">
+    -->
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flex-layout-attribute/1.0.3/css/flex-layout-attribute.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flex-layout-attribute/1.0.3/css/flex-layout-attribute.min.css"
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="" />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap"
+    />
+
+    <link href="index.css" rel="stylesheet" />
+
+    <!-- zuix.js https://github.com/zuixjs/zuix -->
+    <link
+      rel="preload"
+      as="script"
+      href="https://cdn.jsdelivr.net/npm/zuix-dist@1.1.13"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/zuix-dist@1.1.13"></script>
+    <script>
+      const config = zuix.store('config');
+      config.baseUrl = '/radiospini/';
+      config.resourcePath = '/radiospini/app/';
+      setTimeout(() => zuix.$(document.body).css('visibility', 'visible'), 200);
+    </script>
+  </head>
+
+  <body>
+    <noscript> Turn on JavaScript to access this site content. </noscript>
+
+    <main
+      layout="column stretch-stretch"
+      style="height: 100%"
+      class="animate__animated animate__fadeIn animate__slow"
+    >
+      <section layout="column center-center">
+        <div z-load="components/spini-player" z-context="radio-player" class="visible-on-ready"></div>
+      </section>
+    </main>
+
+    <input class="theme-toggle" type="checkbox" />
+
+    <button class="round-button share-button" onclick="sharePage(zuix.context('radio-player').getInfo())">
+      <i class="material-icons">share</i>
+    </button>
+  </body>
+
+  <script src="index.js"></script>
+</html>
